@@ -16,8 +16,8 @@ plugins:
   - jekyll-seo-tag
   - jekyll-feed
 
-disqus:
-    shortname: rizkidoank
+# disqus:
+#    shortname: rizkidoank
 
 # exclude:
 #   - Gemfile

@@ -10,7 +10,7 @@ timezone: Asia/Jakarta
 
 markdown: kramdown
 theme: minima
-show_excerpts: true
+show_excerpts: false
 google_analytics: UA-78100671-2
 plugins:
   - jekyll-seo-tag

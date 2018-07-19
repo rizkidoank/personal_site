@@ -229,3 +229,8 @@ Test Summary: 3 successful, 0 failures, 0 skipped
 
 # Conclusion
 So far, personally Test Kitchen is a best testing framework for infrastructure. Not only used it for Ansible role testing, I also used it in CI such as for automated image building, and also for post provisioning test when using terraform in example. This framework enabling you to do TDD for your infra provisioning and might improve your code quality, and reducing error for some points.
+
+# References
+1. https://github.com/test-kitchen/test-kitchen
+2. https://github.com/neillturner/kitchen-ansible
+3. https://www.inspec.io/

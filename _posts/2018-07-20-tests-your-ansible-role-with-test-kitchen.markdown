@@ -9,7 +9,7 @@ tags:
 ---
 
 Its been a while I am using Ansible as a tool for configuration management.
-There was a conditions where I created a roles with multiple dependencies,
+There was some conditions where I created a roles with multiple dependencies,
 or I have to revisit an ancient roles created by someone else in the past.
 It doesn't matter if the roles are well tested, 
 how if its untested or doesn't have tests at all?

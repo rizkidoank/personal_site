@@ -7,6 +7,7 @@ baseurl: ""
 url: "https://rizkidoank.com"
 github_username:  rizkidoank
 timezone: Asia/Jakarta
+permalink: pretty
 
 markdown: kramdown
 theme: minima
@@ -16,14 +17,20 @@ plugins:
   - jekyll-seo-tag
   - jekyll-feed
 
-# disqus:
-#    shortname: rizkidoank
+disqus:
+    shortname: rizkidoank
 
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+facebook_username: rtechlab
+instagram_username: rizkidoank
+linkedin_username: rizkidoank
+telegram_username: rizkidoank
+rss: rss
+
+exclude:
+ - Gemfile
+ - Gemfile.lock
+ - node_modules
+ - vendor/bundle/
+ - vendor/cache/
+ - vendor/gems/
+ - vendor/ruby/

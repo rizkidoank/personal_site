@@ -25,5 +25,8 @@ Projects accomplishment usually used to measure the performance. But, not only t
 ## Collaborative Coaching I Would Say?
 There might be a condition where you asked for help from another team about how to develop the team. Don't get back and think like that their problem. Instead, learn and work together.
 
+## But Still, Technical Skill Still Needed If You're Become a Tech Lead
+I relatively new in term of work experiences. I admit that my technical skill still shallow, so it was challenging to me. Good technical knowledge will very helpful when you review a plan, or give suggestions about some implementations. Since my knowledge still limited, what I'm doing was connect my members with known expert people in the topics. So that I'm not blocking the projects, in the same time I can learn something new from the experts. I suggest to have some technical knowledge first if you're going to be a tech lead, because it will be relatively easier and others will not see you with half-eye.
+
 ## Closing
 Thats all my first experience when become a lead for about six months, it was great experience for me. Previously, I relatively don't speak too much and it was improved how I communicate with others. Right now, I moved to another role and officially not a lead. But, to me lead is not only about a role but the mental, as we called it leadership.

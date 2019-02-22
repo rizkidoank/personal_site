@@ -14,10 +14,10 @@ It does happened to me (and my team) about past one-half years ago. We already t
 
 First, previously the required resources definition are written together with the ticket itself. To make the processing easier, we changed the format to machine-friendly format, like CSV, JSON, etc and attach it together with the ticket.
 
-Second, I created script to grab the 'request file' and then create a configs based on the input (by the way, we used Terraform). Voila! No need to manually create the configs anymore! Just applied, and merged. Done!
+Second, I created script to grab the 'request file' and then create configs based on the input (by the way, we used Terraform). Voila! No need to manually create the configs anymore! Just applied, and merged. Done!
 
 ## Lesson Learned
-- Don't stop improving the workflow, there is no perfect process / workflow, it will always a space to do improvement. In fact, the requirement might changes day-by-day. You wouldn't catch up if you still doing the same way everytime.
+- Don't stop improving the workflow, there is no perfect process / workflow, there is always space to do improvement. In fact, the requirement might changes day-by-day. You wouldn't catch up if you still doing the same way everytime.
 - Review what you've done, track anything that might help you to improve the process, example: number of similiar incidents
 - Automate if you can automate it, even you're very good in details, there is always a chances you might missed something.
 - Be creative, you have something to get fix, how do you fix the issue? You have many ways to do it.

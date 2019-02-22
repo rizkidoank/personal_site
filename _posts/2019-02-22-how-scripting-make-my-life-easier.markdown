@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How Scripting Make My Life Easier  
-date: '2019-02-23 00:10:00'
+date: '2019-02-23 00:12:00'
 tags:
 - day-to-day
 - experience

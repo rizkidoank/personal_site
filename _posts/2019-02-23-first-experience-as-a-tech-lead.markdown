@@ -16,7 +16,7 @@ That was not easy choice, but thanks to my supportive lead and also supportive c
 ## Become a Lead is Not Only About Get the Projects Finished
 Projects will finished with good results if you know how to do it well. Unfortunately, to do it well is not always about how good you're in technical things. My first challenge is to ensure my team get exposured to stakeholder, this is really helpful since it will remove the communication overhead from stakeholder <-> myself <-> my member. Instead, I tried to connect my members to stakeholder directly and observe. After that, we can review or plan accordingly in our planning session.
 
-## You'll Might Fail If You Don't Know Your Members Well
+## You Might Fail If You Don't Know Your Members Well
 I found that it's easier for me to work with my team when I already know the strength and weakness for each member, then I can discuss with my peer or my lead to improve / enhance it. Getting to know and understand your team is important, and this is the part that I really enjoyed when lead the team, understand their interest, their goals, help each other to reach the goals. Thats fun! Your empathy and emotion are important part in here.
 
 ## There are Something More Important Than Projects
@@ -25,7 +25,7 @@ Projects accomplishment usually used to measure the performance. But, not only t
 ## Collaborative Coaching I Would Say?
 There might be a condition where you asked for help from another team about how to develop the team. Don't get back and think like that their problem. Instead, learn and work together.
 
-## But Still, Technical Skill Still Needed If You're Become a Tech Lead
+## But Still, Technical Skill Will Helps If You're a Tech Lead
 I relatively new in term of work experiences. I admit that my technical skill still shallow, so it was challenging to me. Good technical knowledge will very helpful when you review a plan, or give suggestions about some implementations. Since my knowledge still limited, what I'm doing was connect my members with known expert people in the topics. So that I'm not blocking the projects, in the same time I can learn something new from the experts. I suggest to have some technical knowledge first if you're going to be a tech lead, because it will be relatively easier and others will not see you with half-eye.
 
 ## Closing

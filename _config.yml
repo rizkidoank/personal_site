@@ -1,16 +1,17 @@
 title: Rizki Rizki
-email: rizki@rizkidoank.com
+
 description: >-
   Rizki personal blog, contains everything that
   I want to share. I hope the contents good for you.
 baseurl: ""
+
 url: "https://rizkidoank.com"
-github_username:  rizkidoank
 timezone: Asia/Jakarta
 permalink: pretty
 
 markdown: kramdown
 theme: minima
+
 show_excerpts: false
 google_analytics: UA-78100671-2
 plugins:
@@ -20,7 +21,7 @@ plugins:
 disqus:
     shortname: rizkidoank
 
-facebook_username: rtechlab
+facebook_username: rizkidoank.dev
 instagram_username: rizkidoank
 linkedin_username: rizkidoank
 telegram_username: rizkidoank

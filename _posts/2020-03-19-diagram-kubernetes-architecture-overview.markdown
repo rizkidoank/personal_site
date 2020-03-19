@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Diagram : Kubernetes Architecture Overview
+title: 'Diagram : Kubernetes Architecture Overview'
 date: '2020-03-19 09:45:00'
 tags:
 - kubernetes

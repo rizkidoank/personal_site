@@ -7,4 +7,4 @@ tags:
 - diagram
 ---
 
-![Kubernetes Architecture](https://storage.cloud.google.com/asia-southeast1-rizkidoank-assets/images/kubernetes-architecture.jpg?authuser=1)
+![Kubernetes Architecture](https://storage.cloud.google.com/asia-southeast1-rizkidoank-assets/images/kubernetes-architecture.jpg)

@@ -7,4 +7,4 @@ tags:
 - diagram
 ---
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="eNPyDG8" data-context="false"><a href="//imgur.com/eNPyDG8"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+![Kubernetes Architecture Overview](kubernetes-architecture.jpg)

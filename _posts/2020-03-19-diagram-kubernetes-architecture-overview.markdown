@@ -7,4 +7,4 @@ tags:
 - diagram
 ---
 
-![Kubernetes Architecture Overview](kubernetes-architecture.jpg)
+![Kubernetes Architecture Overview](https://raw.githubusercontent.com/rizkidoank/rizkidoank.github.io/master/_posts/kubernetes-architecture.jpg)

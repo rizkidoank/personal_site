@@ -8,4 +8,4 @@ tags:
 - diagram
 ---
 
-![FinOps Lifecycle](http://drive.google.com/uc?export=view&id=1aY28O8iqcgDu8TbNSgwLBfUsn9RErrcQ)
+![FinOps Lifecycle](/img/2020-03-21-finops.lifecycle.jpg)

@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="en">
+
+    <meta name="author" content="Rizki Rizki">
+    <meta name="description" content="Setelah mengenal REST API pada post sebelumnya di Pengantar REST API, saya akan membuat contoh REST API untuk CRUD dengan contoh model yaitu User.
+Desain REST API Berikut adalah desain API yang akan saya buat,
+System Requirements Untuk dapat membuat API ini, saya menggunakan perangkat sebagai berikut:
+ NodeJS LTS dengan NVM, pemasangan dapat dibaca di Setup NodeJS dan MongoDB di Linux. MongoDB, dapat gunakan tautan yang sama untuk contoh pemasangannya.">
+    <meta name="keywords" content="blog,developer,personal,devops">
+
+    
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Tutorial REST API CRUD dengan NodeJS"/>
+<meta name="twitter:description" content="Setelah mengenal REST API pada post sebelumnya di Pengantar REST API, saya akan membuat contoh REST API untuk CRUD dengan contoh model yaitu User.
+Desain REST API Berikut adalah desain API yang akan saya buat,
+System Requirements Untuk dapat membuat API ini, saya menggunakan perangkat sebagai berikut:
+ NodeJS LTS dengan NVM, pemasangan dapat dibaca di Setup NodeJS dan MongoDB di Linux. MongoDB, dapat gunakan tautan yang sama untuk contoh pemasangannya."/>
+
+    <meta property="og:title" content="Tutorial REST API CRUD dengan NodeJS" />
+<meta property="og:description" content="Setelah mengenal REST API pada post sebelumnya di Pengantar REST API, saya akan membuat contoh REST API untuk CRUD dengan contoh model yaitu User.
+Desain REST API Berikut adalah desain API yang akan saya buat,
+System Requirements Untuk dapat membuat API ini, saya menggunakan perangkat sebagai berikut:
+ NodeJS LTS dengan NVM, pemasangan dapat dibaca di Setup NodeJS dan MongoDB di Linux. MongoDB, dapat gunakan tautan yang sama untuk contoh pemasangannya." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://rizkidoank.com/2016/10/03/tutorial-rest-api-crud-dengan-nodejs/" />
+<meta property="article:published_time" content="2016-10-03T08:12:00+00:00" />
+<meta property="article:modified_time" content="2016-10-03T08:12:00+00:00" />
+
+
+    
+      <base href="https://rizkidoank.com/2016/10/03/tutorial-rest-api-crud-dengan-nodejs/">
+    
+    <title>
+  Tutorial REST API CRUD dengan NodeJS · rizkidoank&#39;s Blog
+</title>
+
+    
+      <link rel="canonical" href="https://rizkidoank.com/2016/10/03/tutorial-rest-api-crud-dengan-nodejs/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="/css/coder.min.3219ef62ae52679b7a9c19043171c3cd9f523628c2a65f3ef247ee18836bc90b.css" integrity="sha256-MhnvYq5SZ5t6nBkEMXHDzZ9SNijCpl8&#43;8kfuGINryQs=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://rizkidoank.com/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://rizkidoank.com/images/favicon-16x16.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.72.0" />
+  </head>
+
+  
+  
+  <body class="colorscheme-light"
+        onload=""
+  >
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      rizkidoank&#39;s Blog
+    </a>
+    
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://rizkidoank.com/posts/">Blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://rizkidoank.com/about/">About</a>
+          </li>
+        
+      
+      
+    </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">Tutorial REST API CRUD dengan NodeJS</h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fas fa-calendar"></i>
+              <time datetime='2016-10-03T08:12:00Z'>
+                October 3, 2016
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fas fa-clock"></i>
+              5-minute read
+            </span>
+          </div>
+          
+          <div class="tags">
+  <i class="fas fa-tag"></i>
+    <a href="/tags/programming/">programming</a>
+      <span class="separator">•</span>
+    <a href="/tags/server/">server</a>
+      <span class="separator">•</span>
+    <a href="/tags/web/">web</a>
+      <span class="separator">•</span>
+    <a href="/tags/api/">api</a>
+      <span class="separator">•</span>
+    <a href="/tags/service/">service</a></div>
+
+        </div>
+      </header>
+
+      <div>
+        
+        <p>Setelah mengenal REST API pada post sebelumnya di <a href="https://rizkidoank.com/2016/09/30/pengantar-rest-api/">Pengantar REST API</a>, saya akan membuat contoh REST API untuk CRUD dengan contoh model yaitu User.</p>
+<h3 id="desain-rest-api">Desain REST API</h3>
+<p>Berikut adalah desain API yang akan saya buat,</p>
+<!-- raw HTML omitted -->
+<h3 id="system-requirements">System Requirements</h3>
+<p>Untuk dapat membuat API ini, saya menggunakan perangkat sebagai berikut:</p>
+<ul>
+<li>NodeJS LTS dengan NVM, pemasangan dapat dibaca di <a href="https://rizkidoank.com/2016/09/20/setup-node-js-dan-mongodb-di-linux/">Setup NodeJS dan MongoDB di Linux</a>.</li>
+<li>MongoDB, dapat gunakan tautan yang sama untuk contoh pemasangannya.</li>
+<li>Postman, dapat diunduh melalui <a href="https://www.getpostman.com/">getpostman</a>.</li>
+</ul>
+<h3 id="langkah-pengerjaan">Langkah Pengerjaan</h3>
+<h4 id="inisialisasi">Inisialisasi</h4>
+<ol>
+<li>
+<p>Pastikan NodeJS dan MongoDB telah aktif.</p>
+</li>
+<li>
+<p>Buat direktori baru, lalu masuk ke direktori tersebut dan inisialisasi proyek NodeJS. Isikan informasi sesuai keinginan anda.</p>
+<pre><code> mkdir rest-api;cd rest-api
+ npm init
+</code></pre>
+</li>
+<li>
+<p>Pasang paket <code>bcrypt, body-parser, express, mongoose, validator</code> dengan <code>npm</code></p>
+<pre><code> npm install --save bcrypt body-parser express mongoose validator
+</code></pre>
+</li>
+<li>
+<p>Buat skrip baru dengan nama <code>server.js</code> atau sesuai keinginan.</p>
+</li>
+</ol>
+<h4 id="membuat-model-user">Membuat Model User</h4>
+<ol>
+<li>
+<p>Pada root proyek, buat direktori baru dan masuk ke direktori tersebut.</p>
+<pre><code> mkdir -p app/models
+ cd app/models
+</code></pre>
+</li>
+<li>
+<p>Buat skrip dengan nama <code>user.js</code> untuk model User.</p>
+</li>
+<li>
+<p>Berikut adalah isi skrip untuk model User.</p>
+<pre><code> /**
+  * USER Model
+  * attributes  : username (unique), password, name, email, date_joined
+  * description :    username should be unique,
+  *                  password encrypted by hash with bcrypt,
+  *                  email should be valid format,
+  *                  date_joined is the date when user register / created
+  * **/
+ var mongoose = require('mongoose'),
+     Schema = mongoose.Schema,
+     bcrypt = require('bcrypt'),
+     bcrypt_rounds = 5;
+
+ var validator = require('validator');
+
+ var user_schema = new Schema({
+     username:{
+        type:String,
+        required:true,
+        index:{
+            unique:true
+        }
+     },
+     password:{
+        type:String,
+        required:true
+     },
+     name:{
+         type:String,
+         required:true
+     },
+     email:{
+         type:String,
+         required:true,
+         validate:{
+             validator: function (str) {
+                 return validator.isEmail(str);
+             },
+             message: 'email not valid'
+         }
+     },
+     date_joined:{
+         type:Date,
+         default:Date.now()
+     }
+ });
+
+ user_schema.pre('save',function (next) {
+     var user = this;
+     if(user.isModified('password')){
+         bcrypt.genSalt(bcrypt_rounds,function (err,salt) {
+             if(err) return next(err);
+             bcrypt.hash(user.password,salt,function (err,hash) {
+                 if(err) return next(err);
+                 user.password = hash;
+                 next();
+             })
+         })
+     } else return next();
+ });
+
+ user_schema.methods.isPassMatch = function (pass, callback) {
+     bcrypt.compare(pass,this.password,function (err,isMatch) {
+         if(err) return callback(err);
+         callback(null,isMatch);
+     });
+ };
+
+ module.exports = mongoose.model('User',user_schema);
+</code></pre>
+</li>
+</ol>
+<p>Pada model User, terdapat atribut <code>username, password, name, email</code> dan <code>date_joined</code>. <code>username</code> berperan sebagai field unik. Sementara itu, untuk password saya lakukan <em>hashing</em> dengan modul <code>bcrypt</code> dan membuat method pengecekan password. Selanjutnya, ada <code>email</code> yang dengan terdapat validator apakah input sesuai format email atau tidak. Lalu, ada <code>date_joined</code> yang merupakan waktu user terdaftar pada sistem. Terakhir, ada <code>name</code> yang isinya adalah nama dari user tersebut.</p>
+<h4 id="membuat-rest-api-server">Membuat REST API Server</h4>
+<ol>
+<li>
+<p>Pada root proyek, edit skrip <code>server.js</code>.</p>
+</li>
+<li>
+<p>Berikut adalah isi dari <code>server.js</code></p>
+<pre><code> /**
+  * Created by rizki on 10/1/16.
+  */
+ /**
+  * REST API Sample
+  * Sample model : User
+  * Description : sample REST API using nodejs with expressjs, providing CRUD operations.
+  */
+
+ // 1. call needed packages and defines port and some instances
+ var express = require('express'),
+     app = express(),
+     bodyParser = require('body-parser');
+ var port = 8080;
+ var router = express.Router();
+
+ // model instances
+ var User = require('./app/models/user');
+
+ // 2. use body parser to get data from HTTP request
+ app.use(bodyParser.urlencoded({
+     extended:true
+ }));
+ app.use(bodyParser.json());
+
+ // 3. create connection to mongodb
+ var mongoose = require('mongoose');
+ mongoose.connect('mongodb://localhost:27017/sample');
+
+ // 4. API Routes
+ // this one is root routes, just a simple response
+ router.get('/',function (req,res) {
+     res.json({
+         message:&quot;Welcome to REST API Sample&quot;
+     });
+ });
+
+ // model related routes
+ // POST : create a user
+ // GET : get all users
+ router.route('/users')
+     .post(function (req,res) {
+         var user = new User();
+         user.username = req.body.username;
+         user.password = req.body.password;
+         user.name = req.body.name;
+         user.email = req.body.email;
+         user.save(function (err) {
+             if(err) res.send(err);
+             else res.json({
+                 message:'new user created'
+             });
+         });
+     })
+     .get(function (req,res) {
+         User.find(function (err,users) {
+             if(err) res.send(err);
+             else res.json(users);
+         });
+     });
+
+ // GET : get a user
+ // PUT : updating user attributes
+ // DELETE : delete user
+ router.route('/users/:username')
+     .get(function (req,res) {
+         User.findOne({
+             username:req.params.username
+         },function (err,user) {
+             if(err) res.send(err);
+             else res.json(user);
+         });
+     })
+     .put(function (req,res) {
+         User.findOne({
+             username:req.params.username
+         },function (err,user) {
+             if(err) res.send(err);
+             else{
+                 user.username = req.body.username;
+                 user.password = req.body.password;
+                 user.name = req.body.name;
+                 user.email = req.body.email;
+                 user.save(function (err) {
+                     if(err) res.send(err);
+                     else res.json({
+                         message:'user updated'
+                     });
+                 });
+             }
+         });
+     })
+     .delete(function (req,res) {
+         User.remove({
+             username:req.params.username
+         }, function (err,user) {
+             if(err) res.send(err);
+             else res.json({
+                 message:'user deleted'
+             })
+         });
+     });
+
+
+ app.use('/api',router); // prefix for 'router'
+ app.listen(port); // this service will listen on port defined at point 1
+ console.log('services started at port : '+port);
+</code></pre>
+</li>
+<li>
+<p>Jalankan API services dengan perintah <code>node server.js</code></p>
+</li>
+<li>
+<p>Services akan aktif di port 8080 jika menggunakan skrip diatas.</p>
+</li>
+</ol>
+<h4 id="testing-rest-api-service">Testing REST API Service</h4>
+<p>Testing API ini saya menggunakan Postman, berikut contoh tampilan postman di menu HTTP method POST.
+<img src="https://rizkidoank.sgp1.digitaloceanspaces.com/rizkidoank/images/2016/10/rest_api_01.jpeg" alt="postman"></p>
+<h5 id="post--apiusers">POST : /api/users</h5>
+<p>Di tahap ini saya memilih method POST, kemudian saya masuk ke tab <strong>Body</strong> dan pilih radio <strong>x-www-form-urlencoded</strong>. Selanjutnya, saya tambahkan <em>key-value</em> atribut yang akan saya kirimkan. Jika pengisian atribut telah selesai, klik <strong>Send</strong>. Maka, jika berhasil akan tampil seperti berikut.
+<img src="https://rizkidoank.sgp1.digitaloceanspaces.com/rizkidoank/images/2016/10/rest_api_02.jpeg" alt="create user sukses">
+Jika saya lihat ke basis data, maka akan tampil user yang baru dibuat dengan hashed password.
+<img src="https://rizkidoank.sgp1.digitaloceanspaces.com/rizkidoank/images/2016/10/rest_api_03.jpeg" alt="mongodb create user"></p>
+<h4 id="get--apiusers">GET : /api/users</h4>
+<p>Di aksi ini, saya menggunakan method GET. Berikut tampilan ketika saya kirimkan rekues <code>GET /api/users</code>.
+<img src="https://rizkidoank.sgp1.digitaloceanspaces.com/rizkidoank/images/2016/10/rest_api_04.jpeg" alt="GET users"></p>
+<h4 id="get--apiusersusername">GET : /api/users/:username</h4>
+<p>Gunakan method GET dengan path <code>/api/users/&lt;username&gt;</code>, misal: <code>/api/users/rizkidoank</code>, maka akan ditampilkan informasi user untuk username <code>rizkidoank</code> saja jika ada.</p>
+<h4 id="put--apiusersusername">PUT : /api/users/:username</h4>
+<p>Gunakan method PUT, lalu pada tab <strong>Body</strong>, tambahkan <em>key-value</em> informasi yang akan diubah. Jika berhasil, data user akan diperbaharui, begitu pula hash passwordnya. Berikut contoh saat dilakukan update user.
+<img src="https://rizkidoank.sgp1.digitaloceanspaces.com/rizkidoank/images/2016/10/rest_api_05.jpeg" alt="update user">
+Jika saya cek basis data, maka data user akan berubah seperti berikut:
+<img src="https://rizkidoank.sgp1.digitaloceanspaces.com/rizkidoank/images/2016/10/rest_api_06.jpeg" alt="mongodb update user"></p>
+<h4 id="delete--apiusersusername">DELETE : /api/users/:username</h4>
+<p>Gunakan method DELETE dengan path <code>/api/users/&lt;username&gt;</code>. Jika berhasil, maka akan tampil response user terhapus, begitupun didalam basis data juga akan terhapus.
+<img src="https://rizkidoank.sgp1.digitaloceanspaces.com/rizkidoank/images/2016/10/rest_api_07.jpeg" alt="hapus user"></p>
+<h3 id="penutup">Penutup</h3>
+<p><em>Nah</em>, tulisan kali ini cukup panjang sepertinya. Jika anda tertarik mencoba atau mempelajari, anda dapat mengikuti panduan ini. Saya juga menyimpan proyek ini di <em>github</em> pribadi saya di <a href="https://github.com/rizkidoank/rest_api_sample">sini</a>. Selamat mencoba, semoga bermanfaat :D</p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "rizkidoank" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        
+        
+      </footer>
+    </article>
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/startup.js" id="MathJax-script"></script>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [
+          ['$', '$'], ['\\(', '\\)']
+        ],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+  </section>
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+      
+        ©
+        
+        2020
+         Rizki Rizki 
+      
+      
+         · 
+        Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+      
+      
+        
+      
+    </section>
+  </footer>
+
+    </main>
+
+    
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-78100671-2', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+    
+
+  </body>
+
+</html>

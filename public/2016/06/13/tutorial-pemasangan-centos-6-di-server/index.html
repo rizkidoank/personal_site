@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="en">
+
+    <meta name="author" content="Rizki Rizki">
+    <meta name="description" content="CentOS adalah distribusi linux berbasis Red Hat Enterprise Linux (RHEL). CentOS dikelola oleh komunitas dan dapat diunduh secara gratis dari situs resminya. Manajemen paket yang digunakan adalah RPM, sama halnya dengan RHEL. CentOS umum digunakan untuk server. Pada post ini, saya akan berbagi mengenai Tutorial Instalasi CentOS 6. Dalam hal ini, akan digunakan CentOS 6.7 Minimal yang dapat diunduh di situs CentOS.
+Tutorial menggunakan mesin virtual KVM dengan spesifikasi satu core CPU, memori 1GB, satu NIC, HDD 15GB.">
+    <meta name="keywords" content="blog,developer,personal,devops">
+
+    
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Tutorial Pemasangan CentOS 6 di Server"/>
+<meta name="twitter:description" content="CentOS adalah distribusi linux berbasis Red Hat Enterprise Linux (RHEL). CentOS dikelola oleh komunitas dan dapat diunduh secara gratis dari situs resminya. Manajemen paket yang digunakan adalah RPM, sama halnya dengan RHEL. CentOS umum digunakan untuk server. Pada post ini, saya akan berbagi mengenai Tutorial Instalasi CentOS 6. Dalam hal ini, akan digunakan CentOS 6.7 Minimal yang dapat diunduh di situs CentOS.
+Tutorial menggunakan mesin virtual KVM dengan spesifikasi satu core CPU, memori 1GB, satu NIC, HDD 15GB."/>
+
+    <meta property="og:title" content="Tutorial Pemasangan CentOS 6 di Server" />
+<meta property="og:description" content="CentOS adalah distribusi linux berbasis Red Hat Enterprise Linux (RHEL). CentOS dikelola oleh komunitas dan dapat diunduh secara gratis dari situs resminya. Manajemen paket yang digunakan adalah RPM, sama halnya dengan RHEL. CentOS umum digunakan untuk server. Pada post ini, saya akan berbagi mengenai Tutorial Instalasi CentOS 6. Dalam hal ini, akan digunakan CentOS 6.7 Minimal yang dapat diunduh di situs CentOS.
+Tutorial menggunakan mesin virtual KVM dengan spesifikasi satu core CPU, memori 1GB, satu NIC, HDD 15GB." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://rizkidoank.com/2016/06/13/tutorial-pemasangan-centos-6-di-server/" />
+<meta property="article:published_time" content="2016-06-13T04:54:09+00:00" />
+<meta property="article:modified_time" content="2016-06-13T04:54:09+00:00" />
+
+
+    
+      <base href="https://rizkidoank.com/2016/06/13/tutorial-pemasangan-centos-6-di-server/">
+    
+    <title>
+  Tutorial Pemasangan CentOS 6 di Server · rizkidoank&#39;s Blog
+</title>
+
+    
+      <link rel="canonical" href="https://rizkidoank.com/2016/06/13/tutorial-pemasangan-centos-6-di-server/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="/css/coder.min.3219ef62ae52679b7a9c19043171c3cd9f523628c2a65f3ef247ee18836bc90b.css" integrity="sha256-MhnvYq5SZ5t6nBkEMXHDzZ9SNijCpl8&#43;8kfuGINryQs=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://rizkidoank.com/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://rizkidoank.com/images/favicon-16x16.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.72.0" />
+  </head>
+
+  
+  
+  <body class="colorscheme-light"
+        onload=""
+  >
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      rizkidoank&#39;s Blog
+    </a>
+    
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://rizkidoank.com/posts/">Blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://rizkidoank.com/about/">About</a>
+          </li>
+        
+      
+      
+    </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">Tutorial Pemasangan CentOS 6 di Server</h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fas fa-calendar"></i>
+              <time datetime='2016-06-13T04:54:09Z'>
+                June 13, 2016
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fas fa-clock"></i>
+              2-minute read
+            </span>
+          </div>
+          
+          <div class="tags">
+  <i class="fas fa-tag"></i>
+    <a href="/tags/sysadmin/">sysadmin</a>
+      <span class="separator">•</span>
+    <a href="/tags/server/">server</a></div>
+
+        </div>
+      </header>
+
+      <div>
+        
+        <p>CentOS adalah distribusi linux berbasis Red Hat Enterprise Linux (RHEL). CentOS dikelola oleh komunitas dan dapat diunduh secara gratis dari situs resminya. Manajemen paket yang digunakan adalah RPM, sama halnya dengan RHEL. CentOS umum digunakan untuk server. Pada post ini, saya akan berbagi mengenai Tutorial Instalasi CentOS 6. Dalam hal ini, akan digunakan CentOS 6.7 Minimal yang dapat diunduh di situs CentOS.</p>
+<p>Tutorial menggunakan mesin virtual KVM dengan spesifikasi satu core CPU, memori 1GB, satu NIC, HDD 15GB. Perlu diketahui, alokasi memori dibawah 1GB hanya dapat menggunakan pemasangan berbasis teks. Dalam tutorial ini, saya akan menggunakan Logical Volume Manager (LVM) untuk partisi harddisk.</p>
+<h2 id="instalasi-centos">Instalasi CentOS</h2>
+<h3 id="boot-cd-installer">Boot CD Installer</h3>
+<p>Masuk ke installer melalui image yang telah diunduh.</p>
+<p><img src="https://rizkidoank.sgp1.digitaloceanspaces.com/rizkidoank/images/2016/06/centos-01.jpg" alt="Bootloader Installer">
+Pilih skip pada pengecekan media instalasi. Selanjutnya, anda akan diarahkan ke laman utama instalasi.</p>
+<p><img src="https://rizkidoank.sgp1.digitaloceanspaces.com/rizkidoank/images/2016/06/centos-02.jpg" alt="Check integritas data installer">
+<img src="https://rizkidoank.sgp1.digitaloceanspaces.com/rizkidoank/images/2016/06/centos-03.jpg" alt="Laman utama instalasi"></p>
+<h3 id="pemilihan-bahasa-hostname-zona-waktu-dan-password-root">Pemilihan Bahasa, Hostname, Zona Waktu, dan Password Root</h3>
+<p>Langkah selanjutnya, lanjutkan dan pilih bahasa yang ingin digunakan</p>
+<p><img src="https://rizkidoank.sgp1.digitaloceanspaces.com/rizkidoank/images/2016/06/centos-04.jpg" alt="Pemilihan bahasa"></p>
+<p>Lanjutkan dengan memilih Basic Storage Devices.</p>
+<p><img src="https://rizkidoank.sgp1.digitaloceanspaces.com/rizkidoank/images/2016/06/centos-05.jpg" alt="Laman utama partisi">
+Jika muncul peringatan, pilih Yes. Perlu diingat bahwa data pada harddisk terkait akan terhapus.</p>
+<p><img src="https://rizkidoank.sgp1.digitaloceanspaces.com/rizkidoank/images/2016/06/centos-06.jpg" alt="Penghapusan tabel partisi">
+Diikuti dengan pemberian nama host, menentukan zona waktu, dan kata sandi root.</p>
+<p><img src="https://rizkidoank.sgp1.digitaloceanspaces.com/rizkidoank/images/2016/06/centos-07.jpg" alt="Pemberian nama host">
+<img src="https://rizkidoank.sgp1.digitaloceanspaces.com/rizkidoank/images/2016/06/centos-08.jpg" alt="Pemilihan zona waktu">
+<img src="https://rizkidoank.sgp1.digitaloceanspaces.com/rizkidoank/images/2016/06/centos-09.jpg" alt="Membuat kata sandi root"></p>
+<h3 id="partisi-harddisk">Partisi Harddisk</h3>
+<p>Pada tahap partisi, diasumsikan menggunakan LVM. Langkah yang ditempuh adalah sebagai berikut :</p>
+<p>Pilih layout custom</p>
+<p><img src="https://rizkidoank.sgp1.digitaloceanspaces.com/rizkidoank/images/2016/06/centos-10.jpg" alt="Laman layout partisi">
+Buat partisi standar untuk mount point /boot dengan tipe filesystem ext2. Boot digunakan untuk menyimpan kernel dan bootloader yang akan digunakan untuk booting ke sistem.</p>
+<p><img src="https://rizkidoank.sgp1.digitaloceanspaces.com/rizkidoank/images/2016/06/centos-11.jpg" alt="Membuat partisi standar"></p>
+<p><img src="https://rizkidoank.sgp1.digitaloceanspaces.com/rizkidoank/images/2016/06/centos-12.jpg" alt="Membuat partisi boot">
+Selanjutnya, buat LVM dengan ukuran Physical Volume adalah sisa dari ruang harddisk yang tersedia.</p>
+<p><img src="https://rizkidoank.sgp1.digitaloceanspaces.com/rizkidoank/images/2016/06/centos-13.jpg" alt="Membuat LVM"></p>
+<p><img src="https://rizkidoank.sgp1.digitaloceanspaces.com/rizkidoank/images/2016/06/centos-14.jpg" alt="Membuat PV">
+Membuat PV dengan ukuran maksimal
+Buatlah Volume Group untuk membuat Logical Volume swap dan root.</p>
+<p><img src="https://rizkidoank.sgp1.digitaloceanspaces.com/rizkidoank/images/2016/06/centos-15.jpg" alt="Membuat VG">
+Buatlah Logical Volume untuk swap dengan ukuran tertentu, dalam tutorial ini yaitu 1 GB.</p>
+<p><img src="https://rizkidoank.sgp1.digitaloceanspaces.com/rizkidoank/images/2016/06/centos-16.jpg" alt="Membuat swap pada LVM">
+Selanjutnya, buat Logical Volume untuk root dengan ukuran penuh.</p>
+<p><img src="https://rizkidoank.sgp1.digitaloceanspaces.com/rizkidoank/images/2016/06/centos-17.jpg" alt="Membuat root pada LVM"></p>
+<p>Konfirmasi penulisan tabel partisi dengan memilih format jika diminta.</p>
+<p><img src="https://rizkidoank.sgp1.digitaloceanspaces.com/rizkidoank/images/2016/06/centos-18.jpg" alt="Konfirmasi penulisan tabel partisi"></p>
+<h3 id="pemasangan-bootloader">Pemasangan Bootloader</h3>
+<p>Selanjutnya, pilih saja next. Pada tutorial ini, bootloader dipasang di Master Boot Record.</p>
+<p><img src="https://rizkidoank.sgp1.digitaloceanspaces.com/rizkidoank/images/2016/06/centos-19.jpg" alt="Pemasangan Bootloader"></p>
+<h3 id="instalasi-selesai">Instalasi Selesai</h3>
+<p>Instalasi telah selesai, pilih reboot. Selanjutnya anda akan disuguhkan dengan laman masuk ke sistem.</p>
+<p><img src="https://rizkidoank.sgp1.digitaloceanspaces.com/rizkidoank/images/2016/06/centos-20.jpg" alt="Instalasi selesai"></p>
+<p><img src="https://rizkidoank.sgp1.digitaloceanspaces.com/rizkidoank/images/2016/06/centos-21.jpg" alt="Laman utama pasca instalasi"></p>
+<p>Tutorial pemasangan CentOS telah selesai. Selamat mencoba!</p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "rizkidoank" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        
+        
+      </footer>
+    </article>
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/startup.js" id="MathJax-script"></script>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [
+          ['$', '$'], ['\\(', '\\)']
+        ],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+  </section>
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+      
+        ©
+        
+        2020
+         Rizki Rizki 
+      
+      
+         · 
+        Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+      
+      
+        
+      
+    </section>
+  </footer>
+
+    </main>
+
+    
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-78100671-2', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+    
+
+  </body>
+
+</html>

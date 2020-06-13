@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cluster on rizkidoank&#39;s Blog</title>
+    <link>https://rizkidoank.com/tags/cluster/</link>
+    <description>Recent content in cluster on rizkidoank&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 02 Nov 2016 21:35:58 +0000</lastBuildDate>
+    
+	<atom:link href="https://rizkidoank.com/tags/cluster/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ekosistem Hadoop pada Big Data</title>
+      <link>https://rizkidoank.com/2016/11/02/ekosistem-hadoop-pada-big-data/</link>
+      <pubDate>Wed, 02 Nov 2016 21:35:58 +0000</pubDate>
+      
+      <guid>https://rizkidoank.com/2016/11/02/ekosistem-hadoop-pada-big-data/</guid>
+      <description>Big Data, Hadoop? Kata Big Data sempat menjadi hype di kalangan scientist dan IT enthusiast. Adapun salah satu yang banyak dibicarakan dan didiskusikan salah satunya terkait dengan infrastruktur Big Data. Bagi yang pernah mencoba belajar infrastruktur Big Data, setidaknya akan terdengar kata seperti Hadoop, Cluster, NoSQL, dan Distributed System (setidaknya itu yang pertama kali terdengar oleh saya saat akan belajar infrastruktur Big Data :D).
+Ekosistem Hadoop Hadoop salah satu proyek yang dikembangkan oleh Apache Foundation.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="en">
+
+    <meta name="author" content="Rizki Rizki">
+    <meta name="description" content="Pengertian Single Linked List Linked List adalah sekumpulan node data yang terurut linear atau sekuensial. Node adalah istilah untuk elemen pada suatu list. Pada kondisi paling sederhana,node memiliki setidaknya dua atribut yaitu data dan referensi untuk node selanjutnya.
+Single Linked List adalah linked list dengan node yang memiliki data dan reference link (biasanya disebut next) yang menunjuk ke node lain pada list. Pada implementasinya, terdapat dua variasi single linked list yaitu circular dan non-circular.">
+    <meta name="keywords" content="blog,developer,personal,devops">
+
+    
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Single Linked List"/>
+<meta name="twitter:description" content="Pengertian Single Linked List Linked List adalah sekumpulan node data yang terurut linear atau sekuensial. Node adalah istilah untuk elemen pada suatu list. Pada kondisi paling sederhana,node memiliki setidaknya dua atribut yaitu data dan referensi untuk node selanjutnya.
+Single Linked List adalah linked list dengan node yang memiliki data dan reference link (biasanya disebut next) yang menunjuk ke node lain pada list. Pada implementasinya, terdapat dua variasi single linked list yaitu circular dan non-circular."/>
+
+    <meta property="og:title" content="Single Linked List" />
+<meta property="og:description" content="Pengertian Single Linked List Linked List adalah sekumpulan node data yang terurut linear atau sekuensial. Node adalah istilah untuk elemen pada suatu list. Pada kondisi paling sederhana,node memiliki setidaknya dua atribut yaitu data dan referensi untuk node selanjutnya.
+Single Linked List adalah linked list dengan node yang memiliki data dan reference link (biasanya disebut next) yang menunjuk ke node lain pada list. Pada implementasinya, terdapat dua variasi single linked list yaitu circular dan non-circular." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://rizkidoank.com/2016/10/11/single-linked-list/" />
+<meta property="article:published_time" content="2016-10-11T04:47:08+00:00" />
+<meta property="article:modified_time" content="2016-10-11T04:47:08+00:00" />
+
+
+    
+      <base href="https://rizkidoank.com/2016/10/11/single-linked-list/">
+    
+    <title>
+  Single Linked List · rizkidoank&#39;s Blog
+</title>
+
+    
+      <link rel="canonical" href="https://rizkidoank.com/2016/10/11/single-linked-list/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="/css/coder.min.3219ef62ae52679b7a9c19043171c3cd9f523628c2a65f3ef247ee18836bc90b.css" integrity="sha256-MhnvYq5SZ5t6nBkEMXHDzZ9SNijCpl8&#43;8kfuGINryQs=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://rizkidoank.com/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://rizkidoank.com/images/favicon-16x16.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.72.0" />
+  </head>
+
+  
+  
+  <body class="colorscheme-light"
+        onload=""
+  >
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      rizkidoank&#39;s Blog
+    </a>
+    
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://rizkidoank.com/posts/">Blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://rizkidoank.com/about/">About</a>
+          </li>
+        
+      
+      
+    </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">Single Linked List</h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fas fa-calendar"></i>
+              <time datetime='2016-10-11T04:47:08Z'>
+                October 11, 2016
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fas fa-clock"></i>
+              2-minute read
+            </span>
+          </div>
+          
+          <div class="tags">
+  <i class="fas fa-tag"></i>
+    <a href="/tags/programming/">programming</a>
+      <span class="separator">•</span>
+    <a href="/tags/computer-science/">computer-science</a>
+      <span class="separator">•</span>
+    <a href="/tags/algorithm/">algorithm</a>
+      <span class="separator">•</span>
+    <a href="/tags/cpp/">cpp</a></div>
+
+        </div>
+      </header>
+
+      <div>
+        
+        <h3 id="pengertian-single-linked-list">Pengertian Single Linked List</h3>
+<p><strong>Linked List</strong> adalah sekumpulan <em>node</em> data yang terurut linear atau sekuensial. <strong>Node</strong> adalah istilah untuk elemen pada suatu list. Pada kondisi paling sederhana,<em>node</em> memiliki setidaknya dua atribut yaitu <strong>data</strong> dan <strong>referensi</strong> untuk <em>node</em> selanjutnya.</p>
+<p><img src="https://rizkidoank.sgp1.digitaloceanspaces.com/rizkidoank/images/2016/10/single_linked_01.jpeg" alt="node pada linked list"></p>
+<p><strong>Single Linked List</strong> adalah <em>linked list</em> dengan <em>node</em> yang memiliki data dan <em>reference link</em> (biasanya disebut <strong>next</strong>) yang menunjuk ke <em>node</em> lain pada <em>list</em>. Pada implementasinya, terdapat dua variasi <em>single linked list</em> yaitu <strong>circular</strong> dan <strong>non-circular</strong>. Berikut adalah ilustrasi <em>single linked list non-circular</em></p>
+<p><img src="https://rizkidoank.sgp1.digitaloceanspaces.com/rizkidoank/images/2016/10/single_linked_02.jpeg" alt="single linked list non-circular"></p>
+<p>Sedangkan untuk <em>single linked list circular</em> adalah sebagai berikut.</p>
+<p><img src="https://rizkidoank.sgp1.digitaloceanspaces.com/rizkidoank/images/2016/10/single_linked_03.jpeg" alt="single linked list circular"></p>
+<h3 id="operasi-pada-single-linked-list">Operasi pada Single Linked List</h3>
+<p>Pada <em>single linked list</em> dapat dilakukan beberapa operasi, beberapa operasi yang dapat dilakukan yaitu : <em>insert</em>, <em>delete</em>, <em>print</em>.</p>
+<h3 id="implementasi-single-linked-list-dengan-c">Implementasi Single Linked List dengan C++</h3>
+<p>Implementasi <em>single linked list</em> dapat lebih mudah dipahami dengan bahasa yang mendukung pointer. Pada tulisan ini <em>single linked list</em> diimplementasikan dengan menggunakan C++. Berikut adalah implementasi dari program.</p>
+<h4 id="abstract-data-type">Abstract Data Type</h4>
+<p>Bagian ini merupakan <em>header</em> dari implementasi <em>single linked list</em> digunakan untuk definisikan method dan fungsi, serta struktur data tipe. Pada contoh ini struktur tipe data yang digunakan sangat sederhana, yaitu <strong>data</strong> dan <strong>next</strong> (referensi ke <em>node</em> lain).</p>
+<!-- raw HTML omitted -->
+<h4 id="implementasi-single-linked-list">Implementasi Single Linked List</h4>
+<p>Bagian ini merupakan implementasi untuk <em>single linked list</em>, dalam kasus ini adalah <em>non-circular</em>. Berkas ini berisi lojik <em>method</em> dan fungsi pada <em>single linked list</em> dengan bahasa C++.</p>
+<!-- raw HTML omitted -->
+<h4 id="implementasi-utama-atau-main-program">Implementasi Utama atau Main Program</h4>
+<p>Berikut adalah implementasi utama dari <em>single linked list</em>, alur program dapat dicek dengan <em>step debugger</em> atau jika ingin lebih jelas dapat modifikasi bagian ini sesuai keinginan.</p>
+<!-- raw HTML omitted -->
+<p>Implementasi <em>single linked list</em> dengan C++ telah selesai. Agar lebih jelas, kode tersebut dapat dimodifikasi dan dipelajari. Selamat belajar!</p>
+<h3 id="catatan">Catatan</h3>
+<ul>
+<li>Fungsi <strong>allocate</strong> berfungsi untuk alokasi memori untuk <em>node</em>.</li>
+<li>Fungsi <strong>free</strong> berfungsi untuk <em>release</em> memori yang digunakan <em>node</em>.</li>
+<li><em>Pointer</em> pada <em>single linked list</em> adalah atribut <strong>next</strong> pada <em>node</em>.</li>
+</ul>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "rizkidoank" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        
+        
+      </footer>
+    </article>
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/startup.js" id="MathJax-script"></script>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [
+          ['$', '$'], ['\\(', '\\)']
+        ],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+  </section>
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+      
+        ©
+        
+        2020
+         Rizki Rizki 
+      
+      
+         · 
+        Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+      
+      
+        
+      
+    </section>
+  </footer>
+
+    </main>
+
+    
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-78100671-2', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+    
+
+  </body>
+
+</html>

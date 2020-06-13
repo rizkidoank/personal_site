@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>web on rizkidoank&#39;s Blog</title>
+    <link>https://rizkidoank.com/tags/web/</link>
+    <description>Recent content in web on rizkidoank&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 24 Oct 2016 08:50:49 +0000</lastBuildDate>
+    
+	<atom:link href="https://rizkidoank.com/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Deploy Ghost Blog di CPanel</title>
+      <link>https://rizkidoank.com/2016/10/24/deploy-ghost-blog-di-cpanel/</link>
+      <pubDate>Mon, 24 Oct 2016 08:50:49 +0000</pubDate>
+      
+      <guid>https://rizkidoank.com/2016/10/24/deploy-ghost-blog-di-cpanel/</guid>
+      <description>Ghost adalah blogging platform berbasis nodejs. Blog rizkidoank.com menggunakan Ghost, dan jujur saja saya sangat menikmati blogging dengan platform ini.
+Biasanya Ghost dipasang di VPS atau PaaS seperti Heroku misalnya. Di Indonesia, harga sewa VPS masih cukup tinggi, selain itu performa yang diberikan juga masih lebih lambat dari VPS di provider luar. Oleh karena itu, masih banyak yang memanfaatkan hosting dikarenakan harga yang lebih terjangkau dan pengguna tidak perlu pusing dalam konfigurasi server.</description>
+    </item>
+    
+    <item>
+      <title>Tutorial REST API CRUD dengan NodeJS</title>
+      <link>https://rizkidoank.com/2016/10/03/tutorial-rest-api-crud-dengan-nodejs/</link>
+      <pubDate>Mon, 03 Oct 2016 08:12:00 +0000</pubDate>
+      
+      <guid>https://rizkidoank.com/2016/10/03/tutorial-rest-api-crud-dengan-nodejs/</guid>
+      <description>Setelah mengenal REST API pada post sebelumnya di Pengantar REST API, saya akan membuat contoh REST API untuk CRUD dengan contoh model yaitu User.
+Desain REST API Berikut adalah desain API yang akan saya buat,
+System Requirements Untuk dapat membuat API ini, saya menggunakan perangkat sebagai berikut:
+ NodeJS LTS dengan NVM, pemasangan dapat dibaca di Setup NodeJS dan MongoDB di Linux. MongoDB, dapat gunakan tautan yang sama untuk contoh pemasangannya.</description>
+    </item>
+    
+    <item>
+      <title>Pengantar REST API</title>
+      <link>https://rizkidoank.com/2016/09/30/pengantar-rest-api/</link>
+      <pubDate>Fri, 30 Sep 2016 03:19:13 +0000</pubDate>
+      
+      <guid>https://rizkidoank.com/2016/09/30/pengantar-rest-api/</guid>
+      <description>REST API banyak digunakan saat akan membuat aplikasi. Dengan REST API saya dapat membuat aplikasi yang multiplatform, karena saya tidak perlu implementasikan fungsi-fungsi CRUD (misalnya) pada tiap platform. Saya cukup menggunakan API yang disediakan untuk memanipulasi basis data yang digunakan aplikasi.
+Gambar diatas merupakan diagram dari REST API. Biasanya pada REST API memanfaatkan HTTP Request, misal seperti GET untuk ambil data, POST untuk masukkan data, PUT untuk pembaharuan data, DELETE untuk hapus data.</description>
+    </item>
+    
+  </channel>
+</rss>

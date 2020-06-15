@@ -15,12 +15,14 @@ disqusShortname = "rizkidoank"
     info = "Cloud Infrastructure - DevOps - System"
     description = "rizkidoank's personal blog"
     keywords = "blog,developer,personal,devops"
-
+    gravatar = "rizki.doank94@gmail.com"
     hidecredits = false
     hidecopyright = false
     rtl = false
     math = true
-    commit = "https://github.com/rizkidoank/rizkidoank.github.io/tree/master"
+    commit = "https://github.com/rizkidoank/rizkidoank.github.io/tree/"
+    maxSeeAlsoItems = 10
+    colorscheme = "auto"
 
 [[params.social]]
     name = "Github"
@@ -38,9 +40,14 @@ disqusShortname = "rizkidoank"
     weight = 3
     url = "https://linkedin.com/in/rizkidoank/"
 [[params.social]]
+    name = "RSS"
+    icon = "fas fa-rss"
+    weight = 4
+    url = "https://rizkidoank.com/index.xml"
+[[params.social]]
     name = "Twitter"
     icon = "fab fa-twitter fa-2x"
-    weight = 4
+    weight = 5
     url = "https://twitter.com/rizkidoankdev/"
 
 # Menu links
@@ -48,7 +55,7 @@ disqusShortname = "rizkidoank"
     name = "Blog"
     weight = 1
     url  = "/posts/"
-[[menu.main]]
-    name = "About"
-    weight = 2
-    url = "/about/"
+#[[menu.main]]
+#    name = "About"
+#    weight = 2
+#    url = "/about/"

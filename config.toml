@@ -51,11 +51,43 @@ disqusShortname = "rizkidoank"
     url = "https://twitter.com/rizkidoankdev/"
 
 # Menu links
-[[menu.main]]
-    name = "Blog"
-    weight = 1
-    url  = "/posts/"
+#[[menu.main]]
+#    name = "Blog"
+#    weight = 1
+#    url  = "/posts/"
 #[[menu.main]]
 #    name = "About"
 #    weight = 2
 #    url = "/about/"
+
+[languages]
+    [languages.en]
+        languagename = "English"
+        title = "rizkidoank's Blog"
+
+        [languages.en.params]
+        info = "Cloud Infrastructure - DevOps - System"
+        description = "rizkidoank's personal blog"
+        keywords = "blog,developer,personal,devops"
+
+        [languages.en.menu]
+        [[languages.en.menu.main]]
+        name = "Posts"
+        weight = 1.0
+        url = "/posts/"
+
+    [languages.id]
+        languagename = "Indonesian"
+        title = "Blog Pribadi rizkidoank"
+
+        [languages.id.params]
+            info = "Cloud Infrastructure - DevOps - System"
+            description = "Blog pribadi rizkidoank"
+            keywords = "blog,developer,personal,devops"
+
+        [languages.id.menu]
+
+            [[languages.id.menu.main]]
+            name = "Tulisan"
+            weight = 1.0
+            url = "/id/posts/"

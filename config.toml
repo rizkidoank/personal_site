@@ -81,13 +81,12 @@ disqusShortname = "rizkidoank"
         title = "Blog Pribadi rizkidoank"
 
         [languages.id.params]
-            info = "Cloud Infrastructure - DevOps - System"
-            description = "Blog pribadi rizkidoank"
-            keywords = "blog,developer,personal,devops"
+        info = "Cloud Infrastructure - DevOps - System"
+        description = "Blog pribadi rizkidoank"
+        keywords = "blog,developer,personal,devops"
 
         [languages.id.menu]
-
-            [[languages.id.menu.main]]
-            name = "Tulisan"
-            weight = 1.0
-            url = "/id/posts/"
+        [[languages.id.menu.main]]
+        name = "Tulisan"
+        weight = 1.0
+        url = "/id/posts/"

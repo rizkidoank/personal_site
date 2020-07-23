@@ -1,5 +1,5 @@
 ---
-title: "Pengalaman Vaginal Birth After Caesarean (VBAC) : Bagian 2 Cerita Kami di Tiga Minggu Terakhir"
+title: "Pengalaman VBAC : Cerita Kami di Tiga Minggu Terakhir"
 date: 2020-07-24T00:25:31+07:00
 tags:
 - indonesian

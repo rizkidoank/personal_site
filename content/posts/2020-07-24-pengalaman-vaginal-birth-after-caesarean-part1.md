@@ -1,5 +1,5 @@
 ---
-title: "Pengalaman Vaginal Birth After Caesarean (VBAC) : Bagian 1 Tips dan Informasi"
+title: "Pengalaman VBAC : Tips dan Informasi"
 date: 2020-07-24T00:18:11+07:00
 tags:
 - indonesian

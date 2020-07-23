@@ -1,6 +1,10 @@
 ---
 title: "Pengalaman Vaginal Birth After Caesarean (VBAC) : Bagian 2 Cerita Kami di Tiga Minggu Terakhir"
 date: 2020-07-24T00:25:31+07:00
+tags:
+- indonesian
+- story
+- family
 ---
 
 Memasuki minggu ke 38 awal, belum ada perkembangan berarti. Sehingga istri saat itu ingin coba kontrol ke dokter lain yang bukan partner saat itu. Alangkah kecewanya dan geram saya saat itu ketika memasuki ruangan, kami hanya ditanya berapa jarak kehamilan dengan operasi SC terakhir. Lalu, tanpa penjelasan apapun langsung berkata kurang lebih seperti ini "SC lagi ya, jam 10 saya kosong, mau ga? Atau kalau ga mau hari ini ya hari Selasa" (kami di dokter tersebut sekitar jam 07:00 WIB). Gila saja, sontak saya langsung bilang, tidak usah. Dan balasan yang saya terima adalah "Kenapa ga mau SC? Kan yang penting mah keluar anaknya sehat, hari ini mah jam 10 periksa, besoknya udah bisa lihat bayinya". Tanpa pikir panjang, kami keluar dan mengabaikan dokter tersebut.

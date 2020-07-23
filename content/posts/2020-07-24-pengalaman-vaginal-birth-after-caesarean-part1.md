@@ -1,6 +1,10 @@
 ---
 title: "Pengalaman Vaginal Birth After Caesarean (VBAC) : Bagian 1 Tips dan Informasi"
 date: 2020-07-24T00:18:11+07:00
+tags:
+- indonesian
+- story
+- family
 ---
 
 Anak pertama saya dilahirkan dengan metode sectio caesaria (SC). Waktu itu, pada usia 37 minggu akhir kami kontrol ke dokter kandungan dan dinyatakan bahwa air ketuban keruh, sehingga diperlukan tindakan operasi SC. Saat itu juga dicoba induksi, diharapkan dapat menstimulasi terjadinya kelahiran spontan. Namun, hingga batas waktu yang disepakati, belum ada perkembangan berarti. Selain itu, perlu diketahui bahwa saya kurang tau pasti detail kenapa air ketuban saat itu keruh, padahal awal minggu ke 37 masih sangat baik kondisinya.

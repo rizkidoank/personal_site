@@ -1,7 +1,7 @@
 baseURL: https://rizkidoank.com/
 title: rizkidoank
 
-theme: hugo-coder
+theme: hugo-PaperMod
 paginate: 5
 
 enableRobotsTXT: true

@@ -1,4 +1,6 @@
-[submodule "public"]
-	path = public
-	url = https://github.com/rizkidoank/rizkidoank.github.io.git
-	branch = master
+[submodule "themes/hugo-PaperMod"]
+	path = themes/hugo-PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git
+[submodule "themes/ananke"]
+	path = themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git

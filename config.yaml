@@ -13,9 +13,9 @@ buildExpored: false
 googleAnalytics: "UA-78100671-2"
 disqusShortname: "rizkidoank"
 
-minify:
-  disableXML: true
-  minifyOutput: true
+#minify:
+#  disableXML: true
+#  minifyOutput: true
 
 params:
   env: production

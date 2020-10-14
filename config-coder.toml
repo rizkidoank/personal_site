@@ -1,0 +1,92 @@
+baseURL = "https://rizkidoank.com/"
+languageCode = "en-us"
+title = "rizkidoank's Blog"
+theme = "hugo-coder"
+defaultcontentlanguage = "en"
+
+googleAnalytics = "UA-78100671-2"
+disqusShortname = "rizkidoank"
+
+[permalinks]
+  posts = "/:year/:month/:day/:title/"
+
+[params]
+    author = "Rizki Rizki"
+    info = "Cloud Infrastructure - DevOps - System"
+    description = "rizkidoank's personal blog"
+    keywords = "blog,developer,personal,devops"
+    gravatar = "rizki.doank94@gmail.com"
+    hidecredits = false
+    hidecopyright = false
+    rtl = false
+    math = true
+    commit = "https://github.com/rizkidoank/rizkidoank.github.io/tree/"
+    maxSeeAlsoItems = 10
+    colorscheme = "auto"
+
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/rizkidoank/"
+[[params.social]]
+    name = "Instagram"
+    icon = "fab fa-instagram fa-2x"
+    weight = 2
+    url = "https://instagram.com/rizkidoank/"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin fa-2x"
+    weight = 3
+    url = "https://linkedin.com/in/rizkidoank/"
+[[params.social]]
+    name = "RSS"
+    icon = "fas fa-rss"
+    weight = 4
+    url = "https://rizkidoank.com/index.xml"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter fa-2x"
+    weight = 5
+    url = "https://twitter.com/rizkidoankdev/"
+
+# Menu links
+#[[menu.main]]
+#    name = "Blog"
+#    weight = 1
+#    url  = "/posts/"
+#[[menu.main]]
+#    name = "About"
+#    weight = 2
+#    url = "/about/"
+
+[languages]
+    [languages.en]
+        languagename = "English"
+        title = "rizkidoank's Blog"
+
+        [languages.en.params]
+        info = "Cloud Infrastructure - DevOps - System"
+        description = "rizkidoank's personal blog"
+        keywords = "blog,developer,personal,devops"
+
+        [languages.en.menu]
+        [[languages.en.menu.main]]
+        name = "Posts"
+        weight = 1.0
+        url = "/posts/"
+
+    [languages.id]
+        languagename = "Indonesian"
+        title = "Blog Pribadi rizkidoank"
+
+        [languages.id.params]
+        info = "Cloud Infrastructure - DevOps - System"
+        description = "Blog pribadi rizkidoank"
+        keywords = "blog,developer,personal,devops"
+
+        [languages.id.menu]
+        [[languages.id.menu.main]]
+        name = "Tulisan"
+        weight = 1.0
+        url = "/id/posts/"

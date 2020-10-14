@@ -8,6 +8,7 @@ tags:
 - web
 - api
 - service
+- indonesian
 ---
 
 Setelah mengenal REST API pada post sebelumnya di [Pengantar REST API](https://rizkidoank.com/2016/09/30/pengantar-rest-api/), saya akan membuat contoh REST API untuk CRUD dengan contoh model yaitu User.

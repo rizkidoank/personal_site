@@ -6,6 +6,7 @@ tags:
 - r
 - programming
 - text-mining
+- indonesian
 ---
 
 Pada post sebelumnya di [Twitter Mining with R : Tweet Analysis, Bagian 2](https://rizkidoank.com/2016/06/12/twitter-mining-with-r-tweet-analysis-bagian-2/), saya sudah mencoba untuk melakukan Text Cleaning untuk dataset yang ada. Selanjutnya, pada bagian ini saya akan mencoba membuat statistik term frequency dan juga membuat wordcloud dari term document frequency.

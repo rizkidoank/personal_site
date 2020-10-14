@@ -6,6 +6,7 @@ tags:
 - programming
 - sysadmin
 - linux
+- indonesian
 ---
 
 Oracle JDK (*Java Development Kit*) adalah *development kit* Java yang disediakan oleh Oracle. Oracle JDK banyak digunakan untuk proyek berbasis Java di skala enterprise, Oracle JDK juga menyediakan *library* yang hanya tersedia dibawah distribusi paket ini.

@@ -11,6 +11,7 @@ tags:
 - service
 - big-data
 - cluster
+- indonesian
 ---
 
 ### Big Data, Hadoop?

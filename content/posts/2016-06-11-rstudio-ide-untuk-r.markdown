@@ -5,6 +5,7 @@ tags:
 - r
 - programming
 - general
+- indonesian
 ---
 
 ![RStudio Logo](https://rizkidoank.sgp1.digitaloceanspaces.com/rizkidoank/images/2016/06/rstudio_logo.jpg)

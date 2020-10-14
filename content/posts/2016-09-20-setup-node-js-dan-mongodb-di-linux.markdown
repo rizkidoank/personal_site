@@ -7,6 +7,7 @@ tags:
 - linux
 - nodejs
 - database
+- indonesian
 ---
 
 Node.JS dan MongoDB adalah perangkat lunak populer saat ini. Platform Node.JS dan Database MongoDB banyak digunakan untuk membuat aplikasi real-time. Pada kesempatan ini saya akan melakukan setup dan konfigurasi Node.JS dan MongoDB di Linux.

@@ -5,6 +5,7 @@ date: '2016-06-13 04:54:09'
 tags:
 - sysadmin
 - server
+- indonesian
 ---
 
 CentOS adalah distribusi linux berbasis Red Hat Enterprise Linux (RHEL). CentOS dikelola oleh komunitas dan dapat diunduh secara gratis dari situs resminya. Manajemen paket yang digunakan adalah RPM, sama halnya dengan RHEL. CentOS umum digunakan untuk server. Pada post ini, saya akan berbagi mengenai Tutorial Instalasi CentOS 6. Dalam hal ini, akan digunakan CentOS 6.7 Minimal yang dapat diunduh di situs CentOS.

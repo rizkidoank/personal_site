@@ -6,6 +6,7 @@ tags:
 - programming
 - web-scraping
 - service
+- indonesian
 ---
 
 Beberapa bulan ini saya mengembangkan proyek berupa dasbor untuk monitoring toko online dari beberapa e-commerce. Salah satu bagian penting yang ada di proyek ini yaitu crawler / scraper. Crawler digunakan untuk akuisisi data yang selanjutnya akan diolah menjadi data penjualan terintegrasi untuk pemilik toko.

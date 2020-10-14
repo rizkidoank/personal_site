@@ -7,6 +7,7 @@ tags:
 - computer-science
 - algorithm
 - cpp
+- indonesian
 ---
 
 ### Pengertian Single Linked List

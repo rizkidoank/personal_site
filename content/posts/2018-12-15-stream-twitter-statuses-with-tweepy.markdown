@@ -6,6 +6,7 @@ tags:
 - data-collection
 - tutorial
 - python
+- english
 ---
 
 Flashback to several years ago when I was using Twitter and learn text mining. At that time, I used python

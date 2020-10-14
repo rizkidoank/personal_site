@@ -6,6 +6,7 @@ tags:
 - general
 - web-scraping
 - containerization
+- indonesian
 ---
 
 ## Pengantar Splash

@@ -6,6 +6,7 @@ tags:
 - sysadmin
 - web-scraping
 - containerization
+- indonesian
 ---
 
 Pada tulisan sebelumnya di [Integrasi Splash dengan Scrapy](https://rizkidoank.com/2016/08/18/integrasi-splash-dengan-scrapy/), saya mencoba untuk integrasi Splash dengan Scrapy. Awalnya saya menggunakan satu kontainer Splash untuk *crawling*, tetapi ternyata terkendala saat menggunakan *concurrent requests* yang sedikit tinggi dan juga situs dengan *script* yang lumayan berat. Berikut dua isu utama yang sering saya temui saat *crawling*

@@ -5,6 +5,7 @@ date: '2019-02-23 01:58:00'
 tags:
 - day-to-day
 - experience
+- english
 ---
 
 Last year, I got offered and trust to be a lead in my team. To be honest, that was my first time I become a lead in my career. First thing that come to my mind was,

@@ -8,6 +8,7 @@ tags:
 - linux
 - networking
 - service
+- indonesian
 ---
 
 Beberapa minggu lalu sempat ramai berita tentang videotron di Jakarta Selatan yang di "retas" oleh seseorang. Berdasarkan dari berita-berita terakhir, pelaku melakukan aksinya dikarenakan tahu akses ke videotron tersebut karena saat ia melintas, *username* dan *password* terlihat di videotron tersebut.

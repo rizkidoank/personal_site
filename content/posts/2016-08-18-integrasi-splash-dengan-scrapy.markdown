@@ -2,6 +2,11 @@
 
 title: Integrasi Splash dengan Scrapy
 date: '2016-08-18 06:05:01'
+tags:
+- general
+- web-scraping
+- containerization
+- indonesian
 ---
 
 Pada tulisan sebelumnya di **[Rendering Javascript dengan Splash](https://rizkidoank.com/2016/06/16/rendering-javascript-dengan-splash/)** saya telah menulis pengantar dari Splash. Splash adalah salah satu *javascript rendering service* berbasis WebKit dan layanan ini bersifat *headless*.

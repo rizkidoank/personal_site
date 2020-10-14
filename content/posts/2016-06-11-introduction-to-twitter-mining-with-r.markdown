@@ -6,6 +6,7 @@ tags:
 - programming
 - general
 - text-mining
+- indonesian
 ---
 
 ## Pengantar

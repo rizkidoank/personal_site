@@ -8,6 +8,7 @@ tags:
 - server
 - nginx
 - linux
+- indonesian
 ---
 
 Setelah saya menggunakan Ghost untuk blog ini, rasanya cukup nyaman. Ghost jauh lebih ringan dan sederhana dibandingkan blogging platform yang pernah saya pakai sebelumnya. Hanya saja, terdapat kendala saat ingin mengunggah berkas selain gambar di Ghost.

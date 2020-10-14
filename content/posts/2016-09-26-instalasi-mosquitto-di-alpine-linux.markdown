@@ -6,6 +6,7 @@ tags:
 - server
 - linux
 - iot
+- indonesian
 ---
 
 ![mosquitto_logo](https://rizkidoank.sgp1.digitaloceanspaces.com/rizkidoank/images/2016/09/mosquitto_01.png)

@@ -5,6 +5,7 @@ tags:
 - r
 - programming
 - text-mining
+- indonesian
 ---
 
 ## Pengantar

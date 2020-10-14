@@ -7,6 +7,7 @@ tags:
 - server
 - networking
 - service
+- indonesian
 ---
 
 MySQL atau MariaDB seringkali digunakan untuk DBMS relasional. Pada penggunaan pribadi atau skala kecil menengah, satu instance MySQL atau MariaDB sudah cukup untuk memenuhi kebutuhan. Namun, pada skala besar, seringkali ditemukan kendala seperti tidak mampu menangani rekues, eksekusi kueri yang lambat, dan lain-lain.
@@ -63,7 +64,3 @@ Setelah konfigurasi selesai, saya coba akses MariaDB dengan load-balancing di ho
     mysql -h 127.0.0.1 -u balancer -p
 
 Jika konfigurasinya benar,maka akan muncul prompt input kueri. Pengujian selanjutnya yaitu dengan eksekusi kueri bersamaan (concurrent).
-
-![](https://rizkidoank.sgp1.digitaloceanspaces.com/rizkidoank/images/2016/10/mariadb_load_02.jpeg)
-
-Dari gambar diatas dapat disimpulkan load balancing sudah berfungsi dengan algoritma balancing roundrobin tanpa bobot. Selamat mencoba dan silakan informasikan jika ada yang kurang tepat. :D

@@ -1,0 +1,70 @@
+baseURL: https://rizkidoank.com/
+title: rizkidoank
+
+theme: hugo-PaperMod
+paginate: 5
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpored: false
+
+
+googleAnalytics: "UA-78100671-2"
+disqusShortname: "rizkidoank"
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: rizkidoank
+  description: 'Blog rizkidoank'
+  author: Me
+  ShowReadingTime: true
+  ShowShareButtons: true
+  comments: true
+  defaultTheme: auto
+  disableThemeToggle : false
+  disableSpecial1stPost : true
+
+  socialIcons:
+    - name: email
+      url: mailto:rizki.doank94@gmail.com
+    - name: github
+      url: 'https://github.com/rizkidoank'
+    - name: facebook
+      url: 'https://facebook.com/rizkidoank.dev/'
+    - name: instagram
+      url: 'https://instagram.com/rizkidoank'
+    - name: linkedin
+      url: 'https://linkedin.com/in/rizkidoank'
+
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: "
+      Welcome to my blog. Most of the posts are written in Indonesian, if you looking for articles written in English, you may make use of `english` tag.
+    "
+
+menu:
+  main:
+    - name: Archives
+      url: /archives/
+      weight: 5
+    - name: Tags
+      url: /tags/
+      weight: 10
+
+permalinks:
+  posts: /:year/:month/:day/:title/"
+
+DefaultContentLanguage: en
+languages:
+  en:
+    languageName: English
+    weight: 1
+  id:
+    languageName: Indonesian
+    weight: 2
+    description: Blog rizkidoank

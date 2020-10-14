@@ -6,6 +6,7 @@ tags:
 - sysadmin
 - server
 - filesystem
+- indonesian
 ---
 
 RAID adalah teknik *striping, mirroring, atau paritas* untuk membentuk penyimpanan yang handal dengan memanfaatkan beberapa disk. Terdapat beberapa jenis level pada RAID, di tulisan selanjutnya mungkin saya bisa memaparkan beberapa :D.

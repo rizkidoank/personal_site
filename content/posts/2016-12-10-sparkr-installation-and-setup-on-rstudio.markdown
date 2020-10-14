@@ -7,6 +7,7 @@ tags:
 - programming
 - statistics
 - data-science
+- indonesian
 ---
 
 **Apache Spark** adalah mesin pemrosesan data yang cepat yang saat ini umum digunakan pada *big data environment* dan untuk pembelajarn mesin. Spark mendukung beberapa bahasa seperti Java, Scala, Python dan saat ini hadir untuk bahasa R.

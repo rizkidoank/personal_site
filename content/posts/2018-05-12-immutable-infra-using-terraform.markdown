@@ -6,6 +6,7 @@ tags:
 - cloud
 - site-reliability-engineer
 - orchestration
+- english
 ---
 
 # What is Terraform?

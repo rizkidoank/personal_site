@@ -6,6 +6,7 @@ tags:
 - site-reliability-engineer
 - configuration-management
 - automation
+- english
 ---
 
 Its been a while I am using Ansible as a tool for configuration management.

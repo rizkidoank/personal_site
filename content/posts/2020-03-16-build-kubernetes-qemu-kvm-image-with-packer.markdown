@@ -6,6 +6,7 @@ tags:
 - kubernetes
 - virtualization
 - kvm
+- english
 ---
 
 [Packer](https://packer.io/) is a tools to automate creation of multiple machine images build by [Hashicorp](https://www.hashicorp.com). Its support multiple builders such as AWS EC2, DigitalOcean, LXD, VMWare, QEMU, etc. In this post, I will share how to create a packer template to build kubernetes image for QEMU/KVM on top of Ubuntu minimal cloud image based on my homelab setup.

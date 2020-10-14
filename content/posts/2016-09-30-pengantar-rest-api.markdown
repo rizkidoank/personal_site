@@ -7,6 +7,7 @@ tags:
 - server
 - web
 - mobile
+- indonesian
 ---
 
 REST API banyak digunakan saat akan membuat aplikasi. Dengan REST API saya dapat membuat aplikasi yang multiplatform, karena saya tidak perlu implementasikan fungsi-fungsi CRUD (misalnya) pada tiap platform. Saya cukup menggunakan API yang disediakan untuk memanipulasi basis data yang digunakan aplikasi.

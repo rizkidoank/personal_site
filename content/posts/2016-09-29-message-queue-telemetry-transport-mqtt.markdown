@@ -7,6 +7,7 @@ tags:
 - iot
 - networking
 - jaringan
+- indonesian
 ---
 
 ***Message Queue Telemetry Transport (MQTT)*** adalah protokol layer aplikasi yang didesain khusus untuk *constrained-device* [1]. *Constrained-device* yang dimaksud disini yaitu perangkat yang memiliki keterbatasan disisi *resources*. MQTT menggunakan arsitektur dengan model *topic-based publish-subscribe*.

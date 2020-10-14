@@ -8,6 +8,7 @@ tags:
 - nodejs
 - web
 - service
+- indonesian
 ---
 
 Ghost adalah blogging platform berbasis nodejs. Blog [rizkidoank.com](https://rizkidoank.com) menggunakan Ghost, dan jujur saja saya sangat menikmati blogging dengan platform ini.

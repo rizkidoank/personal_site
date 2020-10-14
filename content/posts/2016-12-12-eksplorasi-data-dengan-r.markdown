@@ -7,6 +7,7 @@ tags:
 - machine-learning
 - statistics
 - data-science
+- indonesian
 ---
 
 Dalam *data science* sebelum dilakukan analisis data lebih lanjut, ada baiknya dilakukan dahulu eksplorasi data. Eksplorasi data juga disarankan untuk yang baru memasuki *data science*. Dengan eksplorasi data, dapat diketahui apa saja atribut pada dataset, bagaimana nilai-nilai yang ada dalam dataset, distribusi data, atau keterhubungan suatu atribut dengan atribut lainnya.

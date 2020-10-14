@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://rizkidoank.com/id/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://rizkidoank.com/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://rizkidoank.com/id/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://rizkidoank.com/id/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://rizkidoank.com/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://rizkidoank.com/id/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://rizkidoank.com/id/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://rizkidoank.com/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://rizkidoank.com/id/tags/"
+                />
+  </url>
+  
+</urlset>

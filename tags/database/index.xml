@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>database on rizkidoank</title>
+    <link>https://rizkidoank.com/tags/database/</link>
+    <description>Recent content in database on rizkidoank</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 02 Nov 2016 21:35:58 +0000</lastBuildDate><atom:link href="https://rizkidoank.com/tags/database/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ekosistem Hadoop pada Big Data</title>
+      <link>https://rizkidoank.com/2016/11/02/ekosistem-hadoop-pada-big-data//</link>
+      <pubDate>Wed, 02 Nov 2016 21:35:58 +0000</pubDate>
+      
+      <guid>https://rizkidoank.com/2016/11/02/ekosistem-hadoop-pada-big-data//</guid>
+      <description>Big Data, Hadoop? Kata Big Data sempat menjadi hype di kalangan scientist dan IT enthusiast. Adapun salah satu yang banyak dibicarakan dan didiskusikan salah satunya terkait dengan infrastruktur Big Data. Bagi yang pernah mencoba belajar infrastruktur Big Data, setidaknya akan terdengar kata seperti Hadoop, Cluster, NoSQL, dan Distributed System (setidaknya itu yang pertama kali terdengar oleh saya saat akan belajar infrastruktur Big Data :D).
+Ekosistem Hadoop Hadoop salah satu proyek yang dikembangkan oleh Apache Foundation.</description>
+    </item>
+    
+    <item>
+      <title>Setup Node.JS dan MongoDB di Linux</title>
+      <link>https://rizkidoank.com/2016/09/20/setup-node.js-dan-mongodb-di-linux//</link>
+      <pubDate>Tue, 20 Sep 2016 03:25:53 +0000</pubDate>
+      
+      <guid>https://rizkidoank.com/2016/09/20/setup-node.js-dan-mongodb-di-linux//</guid>
+      <description>Node.JS dan MongoDB adalah perangkat lunak populer saat ini. Platform Node.JS dan Database MongoDB banyak digunakan untuk membuat aplikasi real-time. Pada kesempatan ini saya akan melakukan setup dan konfigurasi Node.JS dan MongoDB di Linux.
+Setup Node.JS Beberapa distribusi Linux sudah terdapat paket Node.JS di repositorinya. Tetapi, kali ini saya akan memasangnya dengan Node Version Manager (NVM) oleh creationix. Karena, NVM memungkinkan user menggunakan beberapa versi node.js dan lebih baik dalam manajemen paket (tidak mengganggu sistem, pemasangan paket global tidak perlu akses root).</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>orchestration on rizkidoank</title>
+    <link>https://rizkidoank.com/tags/orchestration/</link>
+    <description>Recent content in orchestration on rizkidoank</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 12 May 2018 07:22:00 +0000</lastBuildDate><atom:link href="https://rizkidoank.com/tags/orchestration/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Immutable Infrastructure using Terraform</title>
+      <link>https://rizkidoank.com/2018/05/12/immutable-infrastructure-using-terraform//</link>
+      <pubDate>Sat, 12 May 2018 07:22:00 +0000</pubDate>
+      
+      <guid>https://rizkidoank.com/2018/05/12/immutable-infrastructure-using-terraform//</guid>
+      <description>What is Terraform?  Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently.
+ OK, that&amp;rsquo;s the first answer when you questioning about &amp;ldquo;what is Terraform&amp;rdquo;. Terraform is a tool built by Hashicorp for infrastructure management. It&amp;rsquo;s based on Go, so you can easily install it by downloading the binary into your machine.
+Why Using Terraform? This is a good question, we know that there are some tools besides Terraform for infrastructure management that commonly used out there like Ansible, Chef, or CloudFormation (if you use AWS).</description>
+    </item>
+    
+  </channel>
+</rss>

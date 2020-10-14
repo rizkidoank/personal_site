@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>general on rizkidoank</title>
+    <link>https://rizkidoank.com/tags/general/</link>
+    <description>Recent content in general on rizkidoank</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 29 Sep 2016 12:30:02 +0000</lastBuildDate><atom:link href="https://rizkidoank.com/tags/general/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Message Queue Telemetry Transport (MQTT)</title>
+      <link>https://rizkidoank.com/2016/09/29/message-queue-telemetry-transport-mqtt//</link>
+      <pubDate>Thu, 29 Sep 2016 12:30:02 +0000</pubDate>
+      
+      <guid>https://rizkidoank.com/2016/09/29/message-queue-telemetry-transport-mqtt//</guid>
+      <description>Message Queue Telemetry Transport (MQTT) adalah protokol layer aplikasi yang didesain khusus untuk constrained-device [1]. Constrained-device yang dimaksud disini yaitu perangkat yang memiliki keterbatasan disisi resources. MQTT menggunakan arsitektur dengan model topic-based publish-subscribe.
+Pada MQTT, akan ada setidaknya tiga pemeran utama yaitu publisher, subscriber, dan broker (lihat gambar diatas). Publisher adalah peran yang memberikan suatu pesan kepada topik tertentu. Subscriber yaitu klien yang subscribe suatu topik, sehingga ketika publisher mengirimkan pesan ke topik tersebut, subscriber dengan topik yang sama akan menerima pesan tersebut.</description>
+    </item>
+    
+    <item>
+      <title>Integrasi Splash dengan Scrapy</title>
+      <link>https://rizkidoank.com/2016/08/18/integrasi-splash-dengan-scrapy//</link>
+      <pubDate>Thu, 18 Aug 2016 06:05:01 +0000</pubDate>
+      
+      <guid>https://rizkidoank.com/2016/08/18/integrasi-splash-dengan-scrapy//</guid>
+      <description>Pada tulisan sebelumnya di Rendering Javascript dengan Splash saya telah menulis pengantar dari Splash. Splash adalah salah satu javascript rendering service berbasis WebKit dan layanan ini bersifat headless.
+Scrapy merupakan salah satu web scraper framework berbasis python yang cukup populer. Pada kondisi default, scrapy tidak mampu melakukan javascript rendering / dynamic webpage load, sehingga diperlukan pihak aplikasi tambahan seperti Selenium atau Splash.
+Pada tulisan ini saya akan memaparkan cara integrasi Scrapy dengan Splash sebagai dynamic webpage rendering service.</description>
+    </item>
+    
+    <item>
+      <title>Rendering Javascript dengan Splash</title>
+      <link>https://rizkidoank.com/2016/06/16/rendering-javascript-dengan-splash//</link>
+      <pubDate>Thu, 16 Jun 2016 21:18:30 +0000</pubDate>
+      
+      <guid>https://rizkidoank.com/2016/06/16/rendering-javascript-dengan-splash//</guid>
+      <description>Pengantar Splash Saat ini banyak cara untuk akuisisi data, salah satu yang sedang populer dikembangkan adalah web crawling. Namun, permasalahannya terkendala saat menghadapi situs web dinamis yang menggunakan javascript. &amp;lsquo;Browser&amp;rsquo; yang digunakan umumnya tidak mendukung javascript.
+Splash merupakan salah satu solusi untuk menghadapi situs web dinamis. Splash adalah layanan yang digunakan sebagi rendering javascript. Layanan ini dikembangkan oleh scrapinghub dan mendukung HTTP API untuk interaksi.
+Pemasangan Splash Jika mengacu pada situs dokumentasi splash, terdapat opsi untuk pemasangan Splash dengan Docker.</description>
+    </item>
+    
+    <item>
+      <title>Akses File di Platform Blog Ghost</title>
+      <link>https://rizkidoank.com/2016/06/15/akses-file-di-platform-blog-ghost//</link>
+      <pubDate>Wed, 15 Jun 2016 22:59:25 +0000</pubDate>
+      
+      <guid>https://rizkidoank.com/2016/06/15/akses-file-di-platform-blog-ghost//</guid>
+      <description>Setelah saya menggunakan Ghost untuk blog ini, rasanya cukup nyaman. Ghost jauh lebih ringan dan sederhana dibandingkan blogging platform yang pernah saya pakai sebelumnya. Hanya saja, terdapat kendala saat ingin mengunggah berkas selain gambar di Ghost.
+Unggah berkas seringkali digunakan pada beberapa posting, misal seperti pada posting Twitter Mining with R : Tweet Analysis, Bagian 2, disitu saya ingin melampirkan berkas berupa dataset dan berkas stopword Indonesia. Saya sempat bingung untuk mengunggah ke server.</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Twitter Mining with R</title>
+      <link>https://rizkidoank.com/2016/06/11/introduction-to-twitter-mining-with-r//</link>
+      <pubDate>Sat, 11 Jun 2016 16:20:01 +0000</pubDate>
+      
+      <guid>https://rizkidoank.com/2016/06/11/introduction-to-twitter-mining-with-r//</guid>
+      <description>Pengantar Twitter dan Twitter Apps Twitter adalah media sosial berbasis teks dengan maksimal huruf sebanyak 140 dalam satu tulisan (disebut tweet). Twitter kerapkali digunakan sebagai sumber data untuk diolah karena akuisisi data tidak terlalu kompleks jika dibandingkan media sosial lain.
+Untuk mengambil data pada twitter, kita dapat memanfaatkan Twitter Application. Ikuti langkah berikut:
+ Buka Twitter Apps. Buat app baru dengan klik create new app. Isi detail app, lanjutkan. App baru akan dibuat, contohnya adalah gambar berikut.</description>
+    </item>
+    
+    <item>
+      <title>RStudio : IDE untuk R</title>
+      <link>https://rizkidoank.com/2016/06/11/rstudio-ide-untuk-r//</link>
+      <pubDate>Sat, 11 Jun 2016 00:03:09 +0000</pubDate>
+      
+      <guid>https://rizkidoank.com/2016/06/11/rstudio-ide-untuk-r//</guid>
+      <description>Pengantar R adalah perangkat lunak yang dikembangkan oleh R Foundation dan merupakan bagian dari GNU Project. Pada situs resminya di r-project dikatakan bahwa :
+ R is a free software environment for statistical computing and graphics. It compiles and runs on a wide variety of UNIX platforms, Windows and MacOS.
+ R digunakan untuk keperluan komputasi statistik dan grafik, mirip dengan Matlab namun R bersifat Free Software dengan lisensi GNU Public License.</description>
+    </item>
+    
+  </channel>
+</rss>

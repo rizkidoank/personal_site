@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>text-mining on rizkidoank</title>
+    <link>https://rizkidoank.com/tags/text-mining/</link>
+    <description>Recent content in text-mining on rizkidoank</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 13 Jun 2016 07:01:36 +0000</lastBuildDate><atom:link href="https://rizkidoank.com/tags/text-mining/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Twitter Mining with R : Tweet Analysis, Bagian 3</title>
+      <link>https://rizkidoank.com/2016/06/13/twitter-mining-with-r-tweet-analysis-bagian-3//</link>
+      <pubDate>Mon, 13 Jun 2016 07:01:36 +0000</pubDate>
+      
+      <guid>https://rizkidoank.com/2016/06/13/twitter-mining-with-r-tweet-analysis-bagian-3//</guid>
+      <description>Pada post sebelumnya di Twitter Mining with R : Tweet Analysis, Bagian 2, saya sudah mencoba untuk melakukan Text Cleaning untuk dataset yang ada. Selanjutnya, pada bagian ini saya akan mencoba membuat statistik term frequency dan juga membuat wordcloud dari term document frequency.
+Statistik Terms Frequency Sebelumnya, saya memiliki variabel tdm yang merupakan term document frequency. Nah, untuk membuat plot statistik frekuensi term saya menggunakan ggplot2, terlebih dahulu install paket ggplot2 dengan perintah install.</description>
+    </item>
+    
+    <item>
+      <title>Twitter Mining with R : Tweet Analysis, Bagian 2</title>
+      <link>https://rizkidoank.com/2016/06/12/twitter-mining-with-r-tweet-analysis-bagian-2//</link>
+      <pubDate>Sun, 12 Jun 2016 16:54:57 +0000</pubDate>
+      
+      <guid>https://rizkidoank.com/2016/06/12/twitter-mining-with-r-tweet-analysis-bagian-2//</guid>
+      <description>Pengantar Pada tulisan ini akan melanjutkan proses selanjutnya setelah mendapatkan data dengan Twitter API. Jika ingin mengunduh dataset tanpa mengambil online dari twitter, silakan unduh melalui link berikut :
+ Tweet @RadioElshinta Stopwords Indonesia  Text Cleaning Setelah akuisisi data, langkah selanjutnya adalah Text Cleaning . Tahapan ini meliputi sub-proses antara lain stopwords removal, whitespaces stripping, dan stemming.
+library(tm)library(SnowballC)load(file = &amp;quot;elshinta.RData&amp;quot;)tweets.df &amp;lt;- twListToDF(tweets_data)corpus &amp;lt;- Corpus(VectorSource(tweets.df$text))# lowercase kontencorpus &amp;lt;- tm_map(corpus,content_transformer(tolower))# hapus url, dan tanda bacaremoveURL &amp;lt;- function(x) gsub(&amp;quot;http[^[:space:]]*&amp;quot;, &amp;quot;&amp;quot;, x)corpus &amp;lt;- tm_map(corpus, content_transformer(removeURL))corpus &amp;lt;- tm_map(corpus, removePunctuation)# buat stopwords Indonesiafile_stop &amp;lt;- file(&amp;quot;stopwords.</description>
+    </item>
+    
+    <item>
+      <title>Twitter Mining with R : Tweet Analysis, Bagian 1</title>
+      <link>https://rizkidoank.com/2016/06/11/twitter-mining-with-r-tweet-analysis-bagian-1//</link>
+      <pubDate>Sat, 11 Jun 2016 17:41:08 +0000</pubDate>
+      
+      <guid>https://rizkidoank.com/2016/06/11/twitter-mining-with-r-tweet-analysis-bagian-1//</guid>
+      <description>Pengantar Pada tulisan sebelumnya, Introduction to Twitter Mining with R telah dipaparkan pengantar tentang Text Mining pada Twitter dengan R. Pada tulisan ini akan dibahas tentang Tweet Analysis. Secara utuh, yang akan saya lakukan adalah :
+ Mengambil data tweet dengan R menggunakan paket twitteR. Text cleaning dengan paket tm pada R. Menampilkan Terms Frequency Membuat wordcloud berdasar term yang didapat.  Mengambil Data Tweets Sebelumnya, pastikan telah membuat Twitter App seperti pada tulisan sebelumnya.</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Twitter Mining with R</title>
+      <link>https://rizkidoank.com/2016/06/11/introduction-to-twitter-mining-with-r//</link>
+      <pubDate>Sat, 11 Jun 2016 16:20:01 +0000</pubDate>
+      
+      <guid>https://rizkidoank.com/2016/06/11/introduction-to-twitter-mining-with-r//</guid>
+      <description>Pengantar Twitter dan Twitter Apps Twitter adalah media sosial berbasis teks dengan maksimal huruf sebanyak 140 dalam satu tulisan (disebut tweet). Twitter kerapkali digunakan sebagai sumber data untuk diolah karena akuisisi data tidak terlalu kompleks jika dibandingkan media sosial lain.
+Untuk mengambil data pada twitter, kita dapat memanfaatkan Twitter Application. Ikuti langkah berikut:
+ Buka Twitter Apps. Buat app baru dengan klik create new app. Isi detail app, lanjutkan. App baru akan dibuat, contohnya adalah gambar berikut.</description>
+    </item>
+    
+  </channel>
+</rss>

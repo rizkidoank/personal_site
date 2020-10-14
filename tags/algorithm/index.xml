@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>algorithm on rizkidoank</title>
+    <link>https://rizkidoank.com/tags/algorithm/</link>
+    <description>Recent content in algorithm on rizkidoank</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 17 Oct 2016 08:52:18 +0000</lastBuildDate><atom:link href="https://rizkidoank.com/tags/algorithm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Double Linked List</title>
+      <link>https://rizkidoank.com/2016/10/17/double-linked-list//</link>
+      <pubDate>Mon, 17 Oct 2016 08:52:18 +0000</pubDate>
+      
+      <guid>https://rizkidoank.com/2016/10/17/double-linked-list//</guid>
+      <description>Pengenalan Double Linked List Pengertian Double Linked List adalah sekumpulan node data yang terurut linear atau sekuensial dengan dua buah pointer yaitu prev dan next. Double Linked List adalah linked list dengan node yang memiliki data dan dua buah reference link (biasanya disebut next dan prev) yang menunjuk ke node sebelum dan node sesudahnya. Pada implementasinya, terdapat dua variasi double linked list yaitu circular dan non-circular layaknya pada single linked list.</description>
+    </item>
+    
+    <item>
+      <title>Single Linked List</title>
+      <link>https://rizkidoank.com/2016/10/11/single-linked-list//</link>
+      <pubDate>Tue, 11 Oct 2016 04:47:08 +0000</pubDate>
+      
+      <guid>https://rizkidoank.com/2016/10/11/single-linked-list//</guid>
+      <description>Pengertian Single Linked List Linked List adalah sekumpulan node data yang terurut linear atau sekuensial. Node adalah istilah untuk elemen pada suatu list. Pada kondisi paling sederhana,node memiliki setidaknya dua atribut yaitu data dan referensi untuk node selanjutnya.
+Single Linked List adalah linked list dengan node yang memiliki data dan reference link (biasanya disebut next) yang menunjuk ke node lain pada list. Pada implementasinya, terdapat dua variasi single linked list yaitu circular dan non-circular.</description>
+    </item>
+    
+  </channel>
+</rss>

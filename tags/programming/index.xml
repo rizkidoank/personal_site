@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>programming on rizkidoank</title>
+    <link>https://rizkidoank.com/tags/programming/</link>
+    <description>Recent content in programming on rizkidoank</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 10 Dec 2016 12:17:37 +0000</lastBuildDate><atom:link href="https://rizkidoank.com/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SparkR Installation and Setup on RStudio</title>
+      <link>https://rizkidoank.com/2016/12/10/sparkr-installation-and-setup-on-rstudio//</link>
+      <pubDate>Sat, 10 Dec 2016 12:17:37 +0000</pubDate>
+      
+      <guid>https://rizkidoank.com/2016/12/10/sparkr-installation-and-setup-on-rstudio//</guid>
+      <description>Apache Spark adalah mesin pemrosesan data yang cepat yang saat ini umum digunakan pada big data environment dan untuk pembelajarn mesin. Spark mendukung beberapa bahasa seperti Java, Scala, Python dan saat ini hadir untuk bahasa R.
+Spark dapat dipasang pada mode lokal maupun mode cluster. Dalam tulisan ini akan dipaparkan pemasangan SparkR pada mode lokal. Berikut adalah langkah pemasangan SparkR + RStudio.
+  Pastikan RStudio, R, dan Java JDK telah terpasang.</description>
+    </item>
+    
+    <item>
+      <title>Pengalaman Membuat E-Commerce Scraper dengan Scrapy</title>
+      <link>https://rizkidoank.com/2016/11/03/pengalaman-membuat-e-commerce-scraper-dengan-scrapy//</link>
+      <pubDate>Thu, 03 Nov 2016 05:01:42 +0000</pubDate>
+      
+      <guid>https://rizkidoank.com/2016/11/03/pengalaman-membuat-e-commerce-scraper-dengan-scrapy//</guid>
+      <description>Beberapa bulan ini saya mengembangkan proyek berupa dasbor untuk monitoring toko online dari beberapa e-commerce. Salah satu bagian penting yang ada di proyek ini yaitu crawler / scraper. Crawler digunakan untuk akuisisi data yang selanjutnya akan diolah menjadi data penjualan terintegrasi untuk pemilik toko.
+Saat ini ada beberapa framework crawler yang banyak digunakan misal saja Apache Nutch yang memiliki keunggulan untuk dapat bekerja pada Hadoop Cluster (versi 2), dan Scrapy yang berbasis Python dan mendukung mode terdistribusi dengan frontera (HBase).</description>
+    </item>
+    
+    <item>
+      <title>Double Linked List</title>
+      <link>https://rizkidoank.com/2016/10/17/double-linked-list//</link>
+      <pubDate>Mon, 17 Oct 2016 08:52:18 +0000</pubDate>
+      
+      <guid>https://rizkidoank.com/2016/10/17/double-linked-list//</guid>
+      <description>Pengenalan Double Linked List Pengertian Double Linked List adalah sekumpulan node data yang terurut linear atau sekuensial dengan dua buah pointer yaitu prev dan next. Double Linked List adalah linked list dengan node yang memiliki data dan dua buah reference link (biasanya disebut next dan prev) yang menunjuk ke node sebelum dan node sesudahnya. Pada implementasinya, terdapat dua variasi double linked list yaitu circular dan non-circular layaknya pada single linked list.</description>
+    </item>
+    
+    <item>
+      <title>Single Linked List</title>
+      <link>https://rizkidoank.com/2016/10/11/single-linked-list//</link>
+      <pubDate>Tue, 11 Oct 2016 04:47:08 +0000</pubDate>
+      
+      <guid>https://rizkidoank.com/2016/10/11/single-linked-list//</guid>
+      <description>Pengertian Single Linked List Linked List adalah sekumpulan node data yang terurut linear atau sekuensial. Node adalah istilah untuk elemen pada suatu list. Pada kondisi paling sederhana,node memiliki setidaknya dua atribut yaitu data dan referensi untuk node selanjutnya.
+Single Linked List adalah linked list dengan node yang memiliki data dan reference link (biasanya disebut next) yang menunjuk ke node lain pada list. Pada implementasinya, terdapat dua variasi single linked list yaitu circular dan non-circular.</description>
+    </item>
+    
+    <item>
+      <title>Memasang Oracle JDK di Linux</title>
+      <link>https://rizkidoank.com/2016/10/10/memasang-oracle-jdk-di-linux//</link>
+      <pubDate>Mon, 10 Oct 2016 08:03:58 +0000</pubDate>
+      
+      <guid>https://rizkidoank.com/2016/10/10/memasang-oracle-jdk-di-linux//</guid>
+      <description>Oracle JDK (Java Development Kit) adalah development kit Java yang disediakan oleh Oracle. Oracle JDK banyak digunakan untuk proyek berbasis Java di skala enterprise, Oracle JDK juga menyediakan library yang hanya tersedia dibawah distribusi paket ini.
+Pada distribusi Linux, JDK yang disediakan pada repositori adalah OpenJDK. Pada beberapa kondisi, OpenJDK tidak dapat digunakan oleh aplikasi tertentu. Pada tulisan ini saya akan berbagi cara memasang Oracle JDK di sistem operasi Linux dengan sampel distribusi yaitu Ubuntu.</description>
+    </item>
+    
+    <item>
+      <title>Tutorial REST API CRUD dengan NodeJS</title>
+      <link>https://rizkidoank.com/2016/10/03/tutorial-rest-api-crud-dengan-nodejs//</link>
+      <pubDate>Mon, 03 Oct 2016 08:12:00 +0000</pubDate>
+      
+      <guid>https://rizkidoank.com/2016/10/03/tutorial-rest-api-crud-dengan-nodejs//</guid>
+      <description>Setelah mengenal REST API pada post sebelumnya di Pengantar REST API, saya akan membuat contoh REST API untuk CRUD dengan contoh model yaitu User.
+Desain REST API Berikut adalah desain API yang akan saya buat,
+System Requirements Untuk dapat membuat API ini, saya menggunakan perangkat sebagai berikut:
+ NodeJS LTS dengan NVM, pemasangan dapat dibaca di Setup NodeJS dan MongoDB di Linux. MongoDB, dapat gunakan tautan yang sama untuk contoh pemasangannya.</description>
+    </item>
+    
+    <item>
+      <title>Pengantar REST API</title>
+      <link>https://rizkidoank.com/2016/09/30/pengantar-rest-api//</link>
+      <pubDate>Fri, 30 Sep 2016 03:19:13 +0000</pubDate>
+      
+      <guid>https://rizkidoank.com/2016/09/30/pengantar-rest-api//</guid>
+      <description>REST API banyak digunakan saat akan membuat aplikasi. Dengan REST API saya dapat membuat aplikasi yang multiplatform, karena saya tidak perlu implementasikan fungsi-fungsi CRUD (misalnya) pada tiap platform. Saya cukup menggunakan API yang disediakan untuk memanipulasi basis data yang digunakan aplikasi.
+Gambar diatas merupakan diagram dari REST API. Biasanya pada REST API memanfaatkan HTTP Request, misal seperti GET untuk ambil data, POST untuk masukkan data, PUT untuk pembaharuan data, DELETE untuk hapus data.</description>
+    </item>
+    
+    <item>
+      <title>Setup Node.JS dan MongoDB di Linux</title>
+      <link>https://rizkidoank.com/2016/09/20/setup-node.js-dan-mongodb-di-linux//</link>
+      <pubDate>Tue, 20 Sep 2016 03:25:53 +0000</pubDate>
+      
+      <guid>https://rizkidoank.com/2016/09/20/setup-node.js-dan-mongodb-di-linux//</guid>
+      <description>Node.JS dan MongoDB adalah perangkat lunak populer saat ini. Platform Node.JS dan Database MongoDB banyak digunakan untuk membuat aplikasi real-time. Pada kesempatan ini saya akan melakukan setup dan konfigurasi Node.JS dan MongoDB di Linux.
+Setup Node.JS Beberapa distribusi Linux sudah terdapat paket Node.JS di repositorinya. Tetapi, kali ini saya akan memasangnya dengan Node Version Manager (NVM) oleh creationix. Karena, NVM memungkinkan user menggunakan beberapa versi node.js dan lebih baik dalam manajemen paket (tidak mengganggu sistem, pemasangan paket global tidak perlu akses root).</description>
+    </item>
+    
+    <item>
+      <title>Twitter Mining with R : Tweet Analysis, Bagian 3</title>
+      <link>https://rizkidoank.com/2016/06/13/twitter-mining-with-r-tweet-analysis-bagian-3//</link>
+      <pubDate>Mon, 13 Jun 2016 07:01:36 +0000</pubDate>
+      
+      <guid>https://rizkidoank.com/2016/06/13/twitter-mining-with-r-tweet-analysis-bagian-3//</guid>
+      <description>Pada post sebelumnya di Twitter Mining with R : Tweet Analysis, Bagian 2, saya sudah mencoba untuk melakukan Text Cleaning untuk dataset yang ada. Selanjutnya, pada bagian ini saya akan mencoba membuat statistik term frequency dan juga membuat wordcloud dari term document frequency.
+Statistik Terms Frequency Sebelumnya, saya memiliki variabel tdm yang merupakan term document frequency. Nah, untuk membuat plot statistik frekuensi term saya menggunakan ggplot2, terlebih dahulu install paket ggplot2 dengan perintah install.</description>
+    </item>
+    
+    <item>
+      <title>Twitter Mining with R : Tweet Analysis, Bagian 2</title>
+      <link>https://rizkidoank.com/2016/06/12/twitter-mining-with-r-tweet-analysis-bagian-2//</link>
+      <pubDate>Sun, 12 Jun 2016 16:54:57 +0000</pubDate>
+      
+      <guid>https://rizkidoank.com/2016/06/12/twitter-mining-with-r-tweet-analysis-bagian-2//</guid>
+      <description>Pengantar Pada tulisan ini akan melanjutkan proses selanjutnya setelah mendapatkan data dengan Twitter API. Jika ingin mengunduh dataset tanpa mengambil online dari twitter, silakan unduh melalui link berikut :
+ Tweet @RadioElshinta Stopwords Indonesia  Text Cleaning Setelah akuisisi data, langkah selanjutnya adalah Text Cleaning . Tahapan ini meliputi sub-proses antara lain stopwords removal, whitespaces stripping, dan stemming.
+library(tm)library(SnowballC)load(file = &amp;quot;elshinta.RData&amp;quot;)tweets.df &amp;lt;- twListToDF(tweets_data)corpus &amp;lt;- Corpus(VectorSource(tweets.df$text))# lowercase kontencorpus &amp;lt;- tm_map(corpus,content_transformer(tolower))# hapus url, dan tanda bacaremoveURL &amp;lt;- function(x) gsub(&amp;quot;http[^[:space:]]*&amp;quot;, &amp;quot;&amp;quot;, x)corpus &amp;lt;- tm_map(corpus, content_transformer(removeURL))corpus &amp;lt;- tm_map(corpus, removePunctuation)# buat stopwords Indonesiafile_stop &amp;lt;- file(&amp;quot;stopwords.</description>
+    </item>
+    
+    <item>
+      <title>Twitter Mining with R : Tweet Analysis, Bagian 1</title>
+      <link>https://rizkidoank.com/2016/06/11/twitter-mining-with-r-tweet-analysis-bagian-1//</link>
+      <pubDate>Sat, 11 Jun 2016 17:41:08 +0000</pubDate>
+      
+      <guid>https://rizkidoank.com/2016/06/11/twitter-mining-with-r-tweet-analysis-bagian-1//</guid>
+      <description>Pengantar Pada tulisan sebelumnya, Introduction to Twitter Mining with R telah dipaparkan pengantar tentang Text Mining pada Twitter dengan R. Pada tulisan ini akan dibahas tentang Tweet Analysis. Secara utuh, yang akan saya lakukan adalah :
+ Mengambil data tweet dengan R menggunakan paket twitteR. Text cleaning dengan paket tm pada R. Menampilkan Terms Frequency Membuat wordcloud berdasar term yang didapat.  Mengambil Data Tweets Sebelumnya, pastikan telah membuat Twitter App seperti pada tulisan sebelumnya.</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Twitter Mining with R</title>
+      <link>https://rizkidoank.com/2016/06/11/introduction-to-twitter-mining-with-r//</link>
+      <pubDate>Sat, 11 Jun 2016 16:20:01 +0000</pubDate>
+      
+      <guid>https://rizkidoank.com/2016/06/11/introduction-to-twitter-mining-with-r//</guid>
+      <description>Pengantar Twitter dan Twitter Apps Twitter adalah media sosial berbasis teks dengan maksimal huruf sebanyak 140 dalam satu tulisan (disebut tweet). Twitter kerapkali digunakan sebagai sumber data untuk diolah karena akuisisi data tidak terlalu kompleks jika dibandingkan media sosial lain.
+Untuk mengambil data pada twitter, kita dapat memanfaatkan Twitter Application. Ikuti langkah berikut:
+ Buka Twitter Apps. Buat app baru dengan klik create new app. Isi detail app, lanjutkan. App baru akan dibuat, contohnya adalah gambar berikut.</description>
+    </item>
+    
+    <item>
+      <title>RStudio : IDE untuk R</title>
+      <link>https://rizkidoank.com/2016/06/11/rstudio-ide-untuk-r//</link>
+      <pubDate>Sat, 11 Jun 2016 00:03:09 +0000</pubDate>
+      
+      <guid>https://rizkidoank.com/2016/06/11/rstudio-ide-untuk-r//</guid>
+      <description>Pengantar R adalah perangkat lunak yang dikembangkan oleh R Foundation dan merupakan bagian dari GNU Project. Pada situs resminya di r-project dikatakan bahwa :
+ R is a free software environment for statistical computing and graphics. It compiles and runs on a wide variety of UNIX platforms, Windows and MacOS.
+ R digunakan untuk keperluan komputasi statistik dan grafik, mirip dengan Matlab namun R bersifat Free Software dengan lisensi GNU Public License.</description>
+    </item>
+    
+  </channel>
+</rss>

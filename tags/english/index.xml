@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>english on rizkidoank</title>
+    <link>https://rizkidoank.com/tags/english/</link>
+    <description>Recent content in english on rizkidoank</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 16 Mar 2020 15:24:00 +0000</lastBuildDate><atom:link href="https://rizkidoank.com/tags/english/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Build Kubernetes QEMU/KVM Image with Packer</title>
+      <link>https://rizkidoank.com/2020/03/16/build-kubernetes-qemu/kvm-image-with-packer//</link>
+      <pubDate>Mon, 16 Mar 2020 15:24:00 +0000</pubDate>
+      
+      <guid>https://rizkidoank.com/2020/03/16/build-kubernetes-qemu/kvm-image-with-packer//</guid>
+      <description>Packer is a tools to automate creation of multiple machine images build by Hashicorp. Its support multiple builders such as AWS EC2, DigitalOcean, LXD, VMWare, QEMU, etc. In this post, I will share how to create a packer template to build kubernetes image for QEMU/KVM on top of Ubuntu minimal cloud image based on my homelab setup.
+Prerequisites  packer cloud-localds (from cloud-image-utils in ubuntu) QEMU/KVM enabled host  Step by Step   Ensure you have QEMU/KVM enabled host, and also packer installed in your machine.</description>
+    </item>
+    
+    <item>
+      <title>First Experience as a Tech Lead</title>
+      <link>https://rizkidoank.com/2019/02/23/first-experience-as-a-tech-lead//</link>
+      <pubDate>Sat, 23 Feb 2019 01:58:00 +0000</pubDate>
+      
+      <guid>https://rizkidoank.com/2019/02/23/first-experience-as-a-tech-lead//</guid>
+      <description>Last year, I got offered and trust to be a lead in my team. To be honest, that was my first time I become a lead in my career. First thing that come to my mind was,
+ If I become a lead, then I will have N peoples that will be my responsibility, I will be one of the factor of their good and bad
+ That was not easy choice, but thanks to my supportive lead and also supportive colleague.</description>
+    </item>
+    
+    <item>
+      <title>Does Infra Testing Really Matters?</title>
+      <link>https://rizkidoank.com/2019/02/23/does-infra-testing-really-matters//</link>
+      <pubDate>Sat, 23 Feb 2019 01:05:00 +0000</pubDate>
+      
+      <guid>https://rizkidoank.com/2019/02/23/does-infra-testing-really-matters//</guid>
+      <description>Story In previous post, I already share my experience when tried to automate manual process by created script to automatically create configs based on the input in requests. We found that the script are useful enough at that time, and reduced number of incidents caused by misconfiguration (yay!). Unfortunately, we faced with issues when the provisioned infrastructure not work as expected which caused by several things, example: invalid port definition which (again) inputted by human.</description>
+    </item>
+    
+    <item>
+      <title>How Scripting Make My Life Easier</title>
+      <link>https://rizkidoank.com/2019/02/23/how-scripting-make-my-life-easier//</link>
+      <pubDate>Sat, 23 Feb 2019 00:12:00 +0000</pubDate>
+      
+      <guid>https://rizkidoank.com/2019/02/23/how-scripting-make-my-life-easier//</guid>
+      <description>Story Did you ever worked in repetitive tasks? I was worked as an operational cloud infrastructure engineer. Starting from received several ticket from developers who needs infrastructure, gathering informations for their needs, double check the requests, and everything done manually by myself.. Ouch! Even worse if we missed something from the request, ta-daaa! Incident happened and another requests got delayed.
+It does happened to me (and my team) about past one-half years ago.</description>
+    </item>
+    
+    <item>
+      <title>Stream Twitter Statuses with Tweepy</title>
+      <link>https://rizkidoank.com/2018/12/15/stream-twitter-statuses-with-tweepy//</link>
+      <pubDate>Sat, 15 Dec 2018 20:47:00 +0000</pubDate>
+      
+      <guid>https://rizkidoank.com/2018/12/15/stream-twitter-statuses-with-tweepy//</guid>
+      <description>Flashback to several years ago when I was using Twitter and learn text mining. At that time, I used python to collects twitter statuses with specific keywords / terms defined and then stored all of those statuses to csv as dataset for text mining learning. In this article, I will share how to stream twitter statuses with python using tweepy module but in this article, I only print the status without store it to a file or database.</description>
+    </item>
+    
+    <item>
+      <title>Test Your Ansible Role with Test Kitchen</title>
+      <link>https://rizkidoank.com/2018/07/20/test-your-ansible-role-with-test-kitchen//</link>
+      <pubDate>Fri, 20 Jul 2018 07:22:00 +0000</pubDate>
+      
+      <guid>https://rizkidoank.com/2018/07/20/test-your-ansible-role-with-test-kitchen//</guid>
+      <description>Its been a while I am using Ansible as a tool for configuration management. There was some conditions where I created a roles with multiple dependencies, or I have to revisit an ancient roles created by someone else in the past. It doesn&amp;rsquo;t matter if the roles are well tested, how if its untested or doesn&amp;rsquo;t have tests at all?
+In the past, I test ansible role by creating a vagrant box and run ansible playbook in it.</description>
+    </item>
+    
+    <item>
+      <title>Immutable Infrastructure using Terraform</title>
+      <link>https://rizkidoank.com/2018/05/12/immutable-infrastructure-using-terraform//</link>
+      <pubDate>Sat, 12 May 2018 07:22:00 +0000</pubDate>
+      
+      <guid>https://rizkidoank.com/2018/05/12/immutable-infrastructure-using-terraform//</guid>
+      <description>What is Terraform?  Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently.
+ OK, that&amp;rsquo;s the first answer when you questioning about &amp;ldquo;what is Terraform&amp;rdquo;. Terraform is a tool built by Hashicorp for infrastructure management. It&amp;rsquo;s based on Go, so you can easily install it by downloading the binary into your machine.
+Why Using Terraform? This is a good question, we know that there are some tools besides Terraform for infrastructure management that commonly used out there like Ansible, Chef, or CloudFormation (if you use AWS).</description>
+    </item>
+    
+  </channel>
+</rss>

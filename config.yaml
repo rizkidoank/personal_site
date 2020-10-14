@@ -1,7 +1,7 @@
-baseURL: https://rizkidoank.com
+baseURL: https://rizkidoank.com/
 title: rizkidoank
 
-theme: hugo-PaperMod
+theme: ananke
 paginate: 5
 
 enableRobotsTXT: true
@@ -22,6 +22,7 @@ params:
   title: rizkidoank
   description: 'Blog rizkidoank'
   author: Me
+  show_reading_time: true
   ShowReadingTime: true
   ShowShareButtons: true
   comments: true
@@ -49,9 +50,9 @@ params:
 
 menu:
   main:
-    - name: Archives
-      url: /archives/
-      weight: 5
+    # - name: Archives
+    #   url: /archives/
+    #   weight: 5
     - name: Tags
       url: /tags/
       weight: 10
@@ -59,12 +60,12 @@ menu:
 permalinks:
   posts: /:year/:month/:day/:title/"
 
-DefaultContentLanguage: en
-languages:
-  en:
-    languageName: English
-    weight: 1
-  id:
-    languageName: Indonesian
-    weight: 2
-    description: Blog rizkidoank
+# DefaultContentLanguage: en
+# languages:
+#   en:
+#     languageName: English
+#     weight: 1
+#   id:
+#     languageName: Indonesian
+#     weight: 2
+#     description: Blog rizkidoank

@@ -1,0 +1,16 @@
+- id: prev_page
+  translation: "Laman Sebelum"
+
+- id: next_page
+  translation: "Laman Selanjutnya"
+
+- id: read_time
+  translation:
+    one : "1 menit"
+    other: "{{ .Count }} menit"
+
+- id: toc
+  translation: "Daftar Pustaka"
+
+- id: translations
+  translation: "Terjemahan"

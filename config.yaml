@@ -1,14 +1,15 @@
-baseURL: https://rizkidoank.com/
+baseURL: https://rizkidoank.com
 title: rizkidoank
 
 theme: ananke
-paginate: 5
+paginate: 10
 
 enableRobotsTXT: true
-buildDrafts: false
-buildFuture: false
-buildExpored: false
 
+sitemap:
+  changefreq: "monthly"
+  priority: 0.5
+  filename: "sitemap.xml"
 
 googleAnalytics: "UA-78100671-2"
 disqusShortname: "rizkidoank"
@@ -23,36 +24,17 @@ params:
   description: 'Blog rizkidoank'
   author: Me
   show_reading_time: true
-  ShowReadingTime: true
-  ShowShareButtons: true
-  comments: true
-  defaultTheme: auto
-  disableThemeToggle : false
-  disableSpecial1stPost : true
-
-  socialIcons:
-    - name: email
-      url: mailto:rizki.doank94@gmail.com
-    - name: github
-      url: 'https://github.com/rizkidoank'
-    - name: facebook
-      url: 'https://facebook.com/rizkidoank.dev/'
-    - name: instagram
-      url: 'https://instagram.com/rizkidoank'
-    - name: linkedin
-      url: 'https://linkedin.com/in/rizkidoank'
-
-  homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: "
-      Welcome to my blog. Most of the posts are written in Indonesian, if you looking for articles written in English, you may make use of `english` tag.
-    "
+  
+  github: 'https://github.com/rizkidoank'
+  facebook: 'https://facebook.com/rizkidoank.dev/'
+  instagram: 'https://instagram.com/rizkidoank'
+  linkedin: 'https://linkedin.com/in/rizkidoank'
 
 menu:
   main:
-    # - name: Archives
-    #   url: /archives/
-    #   weight: 5
+    - name: Posts
+      url: /posts/
+      weight: 5
     - name: Tags
       url: /tags/
       weight: 10

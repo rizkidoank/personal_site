@@ -1,7 +1,9 @@
 baseURL: https://rizkidoank.com
 title: rizkidoank
 
-theme: ananke
+theme:
+- github.com/theNewDynamic/gohugo-theme-ananke
+
 paginate: 10
 
 enableRobotsTXT: true

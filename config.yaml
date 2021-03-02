@@ -39,6 +39,9 @@ menu:
     - name: Tags
       url: /tags/
       weight: 10
+    - name: English
+      url: /tags/english
+      weight: 15
 
 permalinks:
   posts: /:year/:month/:day/:title"

@@ -26,7 +26,7 @@ tags:
     sudo mv packer /usr/bin/packer
     ```
 2.  Create packer configuration file named `kubernetes.json`
-    <script src="https://gist.github.com/rizkidoank/14e2be9a08785aec2fad4daf79c3bdda.js?file=kubernetes.json"></script>
+    {{< gist rizkidoank 14e2be9a08785aec2fad4daf79c3bdda "kubernetes.json">}}
 
     Notes the variables section, 
     
@@ -37,7 +37,8 @@ tags:
     - `ssh_password`, this value need to be defined in our cloud-init userdata.
 
 3.  Create cloud-init image with following userdata:
-    <script src="https://gist.github.com/rizkidoank/14e2be9a08785aec2fad4daf79c3bdda.js?file=userdata.cfg"></script>
+    {{< gist rizkidoank 14e2be9a08785aec2fad4daf79c3bdda "userdata.cfg">}}
+
 
     After that, build cloud-init image with following command:
     ```
@@ -48,7 +49,7 @@ tags:
 
 4.  Create Kubernetes setup script, you could follow from [Kubernetes docs](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/) or use following script:
     
-    {{< gist rizkidoank 14e2be9a08785aec2fad4daf79c3bdda >}}
+    {{< gist rizkidoank 14e2be9a08785aec2fad4daf79c3bdda "setup.sh">}}
 
     Notes following commands:
     
@@ -80,3 +81,6 @@ tags:
     ```
     qemu-img resize kubernetes-1584350145.qcow2 +92G
     ```
+
+## Notes
+- Article updated to show packers configs. Thanks to [Dan Foster](https://disqus.com/by/disqus_H8KMHVTmZO/) to let me know about this.

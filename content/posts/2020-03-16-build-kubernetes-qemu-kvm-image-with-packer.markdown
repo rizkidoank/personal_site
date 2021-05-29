@@ -47,7 +47,8 @@ tags:
     ```
 
 4.  Create Kubernetes setup script, you could follow from [Kubernetes docs](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/) or use following script:
-    <script src="https://gist.github.com/rizkidoank/14e2be9a08785aec2fad4daf79c3bdda.js?file=setup.sh"></script>
+    
+    {{< gist rizkidoank 14e2be9a08785aec2fad4daf79c3bdda >}}
 
     Notes following commands:
     

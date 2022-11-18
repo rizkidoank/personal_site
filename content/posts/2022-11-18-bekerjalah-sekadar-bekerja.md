@@ -1,6 +1,6 @@
 ---
 title: "Tentang Bekerja Sekadar Bekerja"
-date: 2022-18-11T14:00:00+07:00
+date: 2022-11-18T14:00:00+07:00
 tags:
 - indonesian
 - lainnya

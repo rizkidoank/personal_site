@@ -1,5 +1,5 @@
 ---
-title: "Tentang Bekerja Sekadar Bekerja"
+title: "Bekerjalah Sekadar Bekerja"
 date: 2022-11-18T14:00:00+07:00
 tags:
 - indonesian
@@ -32,4 +32,4 @@ cocok diajak ngobrol, bahkan bukan sebatas kerjaan. Ataupun membangun relasi den
 masing-masing. Ya, walaupun hanya sedikit, tapi saya lebih mendapatkan _value_-nya ketimbang
 membuat koneksi kemana-kemana. Ngobrol dengan istri dan anak jauh lebih menarik, haha.
 
-Kalau kata komik sebelah, _"Stay woke, salaryman"_.
+Begitulah kira-kira tentang _"Bekerjalah sekadar bekerja"_. Kalau kata komik sebelah, _"Stay woke, salaryman"_.

@@ -1,0 +1,16 @@
+items:
+- nama: Apple iPad Air 5th Gen
+  kategori: Tablet
+  tautan: https://www.apple.com/shop/buy-ipad/ipad-air
+  kondisi: New
+  komentar: Keren banget
+- nama: Apple iPad Mini 6th Gen
+  kategori: Tablet
+  tautan: https://www.apple.com/shop/buy-ipad/ipad-mini
+  kondisi: New
+  komentar: Mahal
+- nama: Lenovo Thinkpad X1 Carbon 6th Gen
+  kategori: Laptop
+  tautan: https://www.apple.com/shop/buy-ipad/ipad-mini
+  kondisi: Used
+  komentar: Lumayan

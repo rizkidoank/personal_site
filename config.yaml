@@ -1,57 +1,91 @@
 baseURL: https://rizkidoank.com
 title: rizkidoank
-
-theme: ananke
-
-paginate: 10
+paginate: 5
+theme: PaperMod
 
 enableRobotsTXT: true
+
+params:
+  env: production
+  title: rizkidoank
+  description: 'Blog rizkidoank'
+  keywords:
+  - blog
+  - portfolio
+  author: Me
+  defaultTheme: dark
+  disableThemeToggle: true
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: true
+  disableScrollToTop: false
+  comments: true
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: false
+  assets:
+    disableHLJS: false
+    disableFingerprinting: false
+    # favicon: "<link / abs url>"
+    # favicon16x16: "<link / abs url>"
+    # favicon32x32: "<link / abs url>"
+    # apple_touch_icon: "<link / abs url>"
+    # safari_pinned_tab: "<link / abs url>"
+  profileMode:
+    enabled: true
+    title: rizkidoank
+    subtitle: Personal Site
+    imageUrl: https://1.gravatar.com/avatar/e5e8126a6d7ce5ed460f301c94af0c1267c53734c27d09e07b71cad310ee1016?size=256
+    imageWidth: 256
+    imageHeight: 256
+    imageTitle: rizkidoank
+    buttons:
+      - name: Tulisan Saya
+        url: posts
+      - name: Cari
+        url: /search
+      - name: Tag
+        url: tags
 
 sitemap:
   changefreq: "monthly"
   priority: 0.5
   filename: "sitemap.xml"
 
-googleAnalytics: "UA-78100671-2"
-disqusShortname: "rizkidoank"
+services:
+  googleAnalytics:
+    ID: UA-78100671-2
+  disqusShortname: rizkidoank
 
 minify:
   disableXML: true
   minifyOutput: true
 
-params:
-  env: production
-  title: rizkidoank
-  description: 'Blog rizkidoank'
-  author: Me
-  show_reading_time: true
-  
-  github: 'https://github.com/rizkidoank'
-  facebook: 'https://facebook.com/rizkidoank.dev/'
-  instagram: 'https://instagram.com/rizkidoank'
-  linkedin: 'https://linkedin.com/in/rizkidoank'
-
-menu:
-  main:
-    - name: Posts
-      url: /posts/
-      weight: 5
-    - name: Tags
-      url: /tags/
-      weight: 10
-    - name: English
-      url: /tags/english
-      weight: 15
-
 permalinks:
   posts: /:year/:month/:day/:title"
 
-# DefaultContentLanguage: en
-# languages:
-#   en:
-#     languageName: English
-#     weight: 1
-#   id:
-#     languageName: Indonesian
-#     weight: 2
-#     description: Blog rizkidoank
+outputs:
+  home:
+  - HTML
+  - RSS
+  - JSON
+
+DefaultContentLanguage: id
+languages:
+  id:
+    contentDir: content/id
+    languageCode: id-ID
+    languageName: Indonesian
+    weight: 1
+  en:
+    contentDir: content/en
+    languageCode: en-US
+    languageName: English
+    weight: 2

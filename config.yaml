@@ -108,8 +108,8 @@ languages:
     languageCode: en-US
     languageName: English
     weight: 1
-  id:
-    contentDir: content/id
-    languageCode: id-ID
-    languageName: Indonesian
-    weight: 2
+  # id:
+  #   contentDir: content/id
+  #   languageCode: id-ID
+  #   languageName: Indonesian
+  #   weight: 2

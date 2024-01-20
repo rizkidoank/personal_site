@@ -69,6 +69,10 @@ menu:
       name: Posts
       url: posts
       weight: 10
+    - identifier: jajananku
+      name: Jajananku
+      url: jajananku
+      weight: 30
     - identifier: tags
       name: Tags
       url: tags

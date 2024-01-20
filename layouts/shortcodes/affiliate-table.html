@@ -1,0 +1,31 @@
+{{ if .IsNamedParams }}
+<table id="affiliate-table">
+  <thead>
+    <tr>
+      <th>Nama</th>
+      <th>Kategori</th>
+      <th>Kondisi</th>
+      <th>Harga</th>
+      <th>Tautan</th>
+    </tr>
+  </thead>
+  <tbody>
+  {{ $data := index $.Site.Data.tokopedia_affiliate $.Params.data }}
+  {{ range $data }}
+    <tr>
+      {{ partial "affiliate" . }}
+    </tr>
+  {{ end }}
+  </tbody>
+<table>
+{{- end -}}
+
+<script>
+$(document).ready( function () {
+    $('#affiliate-table').DataTable({
+    responsive: true,
+    pageLength: 100
+    });
+} );
+</script>
+  

@@ -6,6 +6,16 @@ theme: PaperMod
 enableRobotsTXT: true
 
 params:
+  homeInfoParams:
+    Title: "Halo \U0001F44B"
+    Content: Selamat datang di blog saya. Blog ini berisi tulisan saya tentang beragam hal. Gunakan fitur pencarian agar lebih mudah dalam pencarian tulisan. Semoga bermanfaat.
+  socialIcons:
+    - name: instagram
+      url: "https://twitter.com/"
+    - name: github
+      url: "https://github.com/rizkidoank"
+    - name: gitlab
+      url: "https://gitlab.com/rizkidoank"
   env: production
   title: rizkidoank
   description: 'Blog rizkidoank'
@@ -39,7 +49,7 @@ params:
     # apple_touch_icon: "<link / abs url>"
     # safari_pinned_tab: "<link / abs url>"
   profileMode:
-    enabled: true
+    enabled: false
     title: rizkidoank
     subtitle: Personal Site
     imageUrl: https://1.gravatar.com/avatar/e5e8126a6d7ce5ed460f301c94af0c1267c53734c27d09e07b71cad310ee1016?size=256
@@ -53,7 +63,20 @@ params:
         url: /search
       - name: Tag
         url: tags
-
+menu:
+  main:
+    - identifier: posts
+      name: Posts
+      url: posts
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: tags
+      weight: 20
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 30
 sitemap:
   changefreq: "monthly"
   priority: 0.5
@@ -62,7 +85,8 @@ sitemap:
 services:
   googleAnalytics:
     ID: UA-78100671-2
-  disqusShortname: rizkidoank
+  disqus:
+    shortname: rizkidoank
 
 minify:
   disableXML: true
@@ -77,15 +101,15 @@ outputs:
   - RSS
   - JSON
 
-DefaultContentLanguage: id
+DefaultContentLanguage: en
 languages:
-  id:
-    contentDir: content/id
-    languageCode: id-ID
-    languageName: Indonesian
-    weight: 1
   en:
     contentDir: content/en
     languageCode: en-US
     languageName: English
+    weight: 1
+  id:
+    contentDir: content/id
+    languageCode: id-ID
+    languageName: Indonesian
     weight: 2

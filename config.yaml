@@ -11,7 +11,7 @@ params:
     Content: Selamat datang di blog saya. Blog ini berisi tulisan saya tentang beragam hal. Gunakan fitur pencarian agar lebih mudah dalam pencarian tulisan. Semoga bermanfaat.
   socialIcons:
     - name: instagram
-      url: "https://twitter.com/"
+      url: "https://www.instagram.com/rizkidoank/"
     - name: github
       url: "https://github.com/rizkidoank"
     - name: gitlab

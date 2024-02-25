@@ -1,7 +1,7 @@
 ---
 title: Cari
 layout: search
-url: /search
+url: /id/search
 summary: "search"
 placeholder: "tuliskan kata kunci disini untuk mencari artikel"
 ---

@@ -1,7 +1,9 @@
 baseURL: https://rizkidoank.com
 title: rizkidoank
 paginate: 5
-theme: PaperMod
+module:
+  imports:
+  - path: github.com/adityatelange/hugo-PaperMod
 
 enableRobotsTXT: true
 
@@ -108,12 +110,7 @@ outputs:
 DefaultContentLanguage: en
 languages:
   en:
-    contentDir: content/en
     languageCode: en-US
     languageName: English
     weight: 1
-  id:
-    contentDir: content/id
-    languageCode: id-ID
-    languageName: Indonesian
-    weight: 2
+

@@ -1,5 +1,5 @@
 ---
-title: "Bootstrapping Argocd With Terraform"
+title: "Bootstrapping ArgoCD With Terraform"
 date: 2024-02-27T01:11:46+08:00
 ---
 

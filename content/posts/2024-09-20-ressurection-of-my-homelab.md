@@ -18,6 +18,7 @@ I decided to reinstall the server with Linux with VMWare Workstation, so that I 
 When we deal with hypervisor like VMWare, its better if we built the template first before we bootstrap the services / cluster. So I was planned to do the same by building 2 template images:
 - almalinux9 base image
 - k8s base image
+
 Then after that spin 3 instances for 1 control plane and 2 worker. While everything is running, I rethink again how to simplify this, so that I don't need to maintain the base image time to time. So then there are 3 options that I possibly take:
 - RKE2, the successor of RKE1 and combined with K3s. Apparently the installation is different from RKE1. In RKE1 we need to provide cluster config and we can bootstrap it remotely by running the rke binary. For RKE2, looks like the approach is using server and agent daemon, which mean I have to build config management playbook to manage this.
 - K3s, I really like k3s since its very lightweight. Was thinking to use it but I hold it back and thinking maybe better to put k3s in my rpis instead as "edge cluster"

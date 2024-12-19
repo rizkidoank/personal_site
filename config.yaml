@@ -10,7 +10,7 @@ enableRobotsTXT: true
 params:
   homeInfoParams:
     Title: "Halo \U0001F44B"
-    Content: Selamat datang di blog saya. Blog ini berisi tulisan saya tentang beragam hal. Gunakan fitur pencarian agar lebih mudah dalam pencarian tulisan. Semoga bermanfaat.
+    Content: Welcome to my blog!
   socialIcons:
     - name: instagram
       url: "https://www.instagram.com/rizkidoank/"

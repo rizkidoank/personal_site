@@ -1,10 +1,11 @@
 baseURL: https://rizkidoank.com
 title: rizkidoank
-paginate: 5
+pagination:
+  pagerSize: 5
 module:
   imports:
   - path: github.com/adityatelange/hugo-PaperMod
-
+enableEmoji: true
 enableRobotsTXT: true
 
 params:
@@ -90,7 +91,7 @@ sitemap:
 
 services:
   googleAnalytics:
-    ID: UA-78100671-2
+    ID: G-11PHT87RFD
   disqus:
     shortname: rizkidoank
 

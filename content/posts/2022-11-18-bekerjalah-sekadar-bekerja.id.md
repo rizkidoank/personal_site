@@ -1,6 +1,7 @@
 ---
 title: "Bekerjalah Sekadar Bekerja"
 date: 2022-11-18T14:00:00+07:00
+draft: true
 tags:
 - indonesian
 - lainnya

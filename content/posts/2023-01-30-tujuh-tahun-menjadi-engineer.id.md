@@ -1,6 +1,7 @@
 ---
 title: "Tujuh Tahun Menjadi Engineer"
 date: 2023-01-30T04:00:00+07:00
+draft: true
 tags:
 - indonesian
 - lainnya

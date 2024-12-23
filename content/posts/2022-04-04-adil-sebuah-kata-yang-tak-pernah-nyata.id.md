@@ -1,6 +1,7 @@
 ---
 title: "Adil: Sebuah Kata yang Tak Pernah Nyata"
 date: 2022-04-04T00:00:00+07:00
+draft: true
 tags:
 - indonesian
 - lainnya

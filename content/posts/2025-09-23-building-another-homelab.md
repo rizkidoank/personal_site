@@ -34,7 +34,7 @@ I almost forgot the main parts, **GPU**! For this server, I decided to use **P10
 
 Aside this server, I also have **Asrock Deskmini X300** which will be the temporary pair for the cluster. Its a decent build with **Ryzen 5 Pro 4650G**, **32GB** of RAM, **1 x 256GB NVMe** and additionally **2 x 480GB SATA SSD**. This server will be utilized as storage, and also for other **CPU intensive workloads**, not sure for the **APU** since it doesn't support **ROCm**. Done for now, lets move to architecture.
 
-## Installation and Setup
+## Hypervisor / Virtualization Platform
 I tried different options for the hypervisor and the decision is to go with Proxmox VE 9.0. How I decide this?
 - Proxmox VE 9.0: easy to install, relatively easy to setup and maintain. Its also supports KVM and LXC, which is great.
 - VSphere ESXi 8 + vCenter: very nice platform and it has Terraform provider. But, the vCenter using very high on resources. I also experiences instability in my deskmini, sometimes kernel panic on reboot.

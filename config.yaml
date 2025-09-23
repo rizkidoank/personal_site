@@ -11,7 +11,7 @@ enableRobotsTXT: true
 params:
   homeInfoParams:
     Title: "Halo \U0001F44B"
-    Content: Welcome to my blog!
+    Content: Welcome to my blog! I'm a Cloud Infrastructure engineer that has interest on ML / AI Infrastructure. 
   socialIcons:
     - name: instagram
       url: "https://www.instagram.com/rizkidoank/"

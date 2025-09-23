@@ -21,7 +21,7 @@ params:
       url: "https://gitlab.com/rizkidoank"
   env: production
   title: rizkidoank
-  description: 'Blog rizkidoank'
+  description: "rizkidoank's blog"
   keywords:
   - blog
   - portfolio
@@ -52,19 +52,19 @@ params:
     # apple_touch_icon: "<link / abs url>"
     # safari_pinned_tab: "<link / abs url>"
   profileMode:
-    enabled: false
+    enabled: true
     title: rizkidoank
-    subtitle: Personal Site
+    subtitle: Welcome to my personal blog 😁
     imageUrl: https://1.gravatar.com/avatar/e5e8126a6d7ce5ed460f301c94af0c1267c53734c27d09e07b71cad310ee1016?size=256
     imageWidth: 256
     imageHeight: 256
     imageTitle: rizkidoank
     buttons:
-      - name: Tulisan Saya
+      - name: Posts
         url: posts
-      - name: Cari
+      - name: Search
         url: /search
-      - name: Tag
+      - name: Tags
         url: tags
 menu:
   main:

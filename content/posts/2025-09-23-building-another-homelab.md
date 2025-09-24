@@ -20,7 +20,7 @@ After the cleaning, I tried to tests all of the servers and GPU.
 The good news
 - all of the GPU are alive!
 - The motherboards also works well.
-- 1 ATX PSU works well (but seems like its not able to achieve its)
+- 1 ATX PSU works well (but seems like its not able to achieve its maximum capacity)
 
 The bad news:
 - 1 CPU is dead

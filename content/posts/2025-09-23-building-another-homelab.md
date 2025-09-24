@@ -38,7 +38,7 @@ Aside this server, I also have **Asrock Deskmini X300** which will be the tempor
 I tried different options for the hypervisor and the decision is to go with Proxmox VE 9.0. How I decide this?
 - Proxmox VE 9.0: easy to install, relatively easy to setup and maintain. Its also supports KVM and LXC, which is great.
 - VSphere ESXi 8 + vCenter: very nice platform and it has Terraform provider. But, the vCenter using very high on resources. I also experiences instability in my deskmini, sometimes kernel panic on reboot.
-- Microcloud: this also great. Install distro with snapd in it, the install the microcloud snap. After that initialize the cluster. While its supposed to be an easy to use hypervisor, I found that its involve lots of CLI interaction when it comes to make changes on the components such as LXD, MicroOVN, MicroCeph.
+- Microcloud: this also great. Install distro with snapd in it, then install the microcloud snap and initialize the cluster. While its supposed to be an easy to use hypervisor, I found that its involve lots of CLI interaction when it comes to make changes on the components such as LXD, MicroOVN, MicroCeph.
 - Openstack, OpenNebula, CloudStack: all of mentioned are great, but there is no easy way to bootstrap which will bring my focus away. Possibly will create Openstack on top of the KVM with nesting virtualization.
 - XCP-ng: nice Xen based platform, but I'm not really into it for now. The web interface is not as powerful like Proxmox or Vsphere.
 - Libvirt: lightweight, but I need user interface that can be accessed anywhere and also I don't want to deal with much CLI if possible.

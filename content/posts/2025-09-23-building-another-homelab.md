@@ -47,7 +47,7 @@ I tried different options for the hypervisor and the decision is to go with Prox
 For the first iteration, unfortunately only 1 GPU server paired temporarily with my deskmini. Here is the overview architecture:
 ![GPU Homelab Architecture v0.1.0](/img/2025-09-23-homelab-diagram.png)
 
-This fairly simple architecture. The ISP router is on different room with my room, so I need a wireless router to connect to it, then the homelab will using this router as the gateway. I planned to add some other nodes in near future, so I also add 8 ports 1Gbit unmanaged switch which connected to GL-INET B1300 router. The servers are connected through the switch. With both of the servers installed with Proxmox VE 9.0, then I create a cluster.
+This fairly simple architecture. The ISP router is on different room with my room, so I need a wireless router to connect to it, then the homelab will use this router as the gateway. I planned to add some other nodes in near future, so I also add 8 ports 1Gbit unmanaged switch which connected to GL-INET B1300 router. The servers are connected through the switch. With both of the servers installed with Proxmox VE 9.0, then I create a cluster.
 
 ![Proxmox Node Summary](/img/2025-09-24-proxmox-node-summary.png)
 
